@@ -30,19 +30,19 @@ function FixedUpdate() {
 	// ***
 	
 	//if (grounded) {
-	if (true) {
+	//if (true) {
 		// We are grounded, so recalculate movedirection directly from axes
 		moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 		moveDirection = transform.TransformDirection(moveDirection);
 		moveDirection *= speed;
 		
-		if (Input.GetButton ("Jump")) {
+		if (Input.GetButton ("MoveUp")) {
 			moveDirection.y = jumpSpeed;
 		}
-		else if (Input.GetButton("Fire3")) {
+		else if (Input.GetButton("MoveDown")) {
 			moveDirection.y = -jumpSpeed;
 		}
-	}
+	
 
 	// Apply gravity
 	moveDirection.y -= gravity * Time.deltaTime;
