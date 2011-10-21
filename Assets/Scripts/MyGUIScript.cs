@@ -3,7 +3,7 @@ using System.Collections;
 
 public class MyGUIScript :MonoBehaviour {
 
-    private int kOffsetY = 20;
+    private int kOffsetY = 30;
     public static bool shouldMouseLookEnable;
     public float[] sliderValue;
     public float[] redSliderValue;
@@ -12,10 +12,11 @@ public class MyGUIScript :MonoBehaviour {
 
     public GameObject gearBoxObject;
     public GameObject bladeObject;
+    bool hasStartedYet = false;
     void Start () {
         sliderValue = new float[alphaSliderGameObject.Length];
         for (int i = 0;i < sliderValue.Length;i++) {
-            sliderValue[i] = 1;
+            sliderValue[i] = 0.5f;
         }
 
         redSliderValue = new float[redSliderGameObject.Length];
@@ -27,8 +28,6 @@ public class MyGUIScript :MonoBehaviour {
         for (int i = 0;i < bladesAnimation.Length; i ++) {
             GameObject bladeO = bladesAnimation[i];
             bladeO.animation.Stop();
-            Debug.Log("clear");
-            StartCoroutine(resetAnimation(bladeO));
         }
         
     }
@@ -39,6 +38,7 @@ public class MyGUIScript :MonoBehaviour {
 
     }
     void Update() {
+        
         if (Input.GetButtonDown("toogleMouse")) {
             shouldMouseLookEnable = !shouldMouseLookEnable;
         }
@@ -66,9 +66,26 @@ public class MyGUIScript :MonoBehaviour {
     
     void OnGUI() {
 //        
-        if (shouldMouseLookEnable)
-        {
+        if (shouldMouseLookEnable) {
+            Screen.showCursor = false;
             return;
+        }
+        else {
+            Screen.showCursor = true;
+        }
+        if (!hasStartedYet) {
+            if (GUI.Button(new Rect(100, 100, 100, 50), "Start")) {
+                GameObject[] bladesAnimation = GameObject.FindGameObjectsWithTag("blades");
+                for (int i = 0;i < bladesAnimation.Length;i++) {
+                    GameObject bladeO = bladesAnimation[i];
+                    StartCoroutine(resetAnimation(bladeO));
+                }
+                hasStartedYet = true;
+            }
+            return;
+        }
+        else {
+            
         }
         // Make a group on the center of the screen
         GUI.BeginGroup(new Rect(25 ,25 , 200, 400));
@@ -120,6 +137,8 @@ public class MyGUIScript :MonoBehaviour {
                 bladeObject.animation.Play();
             }
         }
+
+        GUI.Label(new Rect(25, 300, 150, 60), "Press M to enable mouse look");
         GUI.EndGroup();
     }
 

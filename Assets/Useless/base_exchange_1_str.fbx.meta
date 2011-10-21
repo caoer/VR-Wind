@@ -1,0 +1,68 @@
+fileFormatVersion: 1
+guid: e96db39b5dc753d4e93fb3c35b958c39
+labels:
+- Portable
+- Building
+- Base
+- Exchange
+- Trailer
+- Pre-fab
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    base_exchange_str_instancebase_exchange_str_2-node:
+    - 100000
+    - 400000
+    base_exchange_str_instancebase_exchange_str_2-mesh:
+    - 100002
+    - 400002
+    - 3300000
+    - 2300000
+    base_exchange_str_1:
+    - 100004
+    - 400004
+    - 3300002
+    - 2300002
+    base_exchange_str:
+    - 100006
+    - 400006
+    Collada_visual_scene_group 1:
+    - 100008
+    - 400008
+    Collada_visual_scene_group:
+    - 100010
+    - 400010
+    //RootNode:
+    - 100012
+    - 400012
+    - 11100000
+    group:
+    - 100014
+    - 400014
+    sceneRoot:
+    - 100016
+    - 400016
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: base_exchange_str_1
+    4300002: base_exchange_str_instancebase_exchange_str_2-mesh
