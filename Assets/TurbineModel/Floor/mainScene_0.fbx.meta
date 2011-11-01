@@ -1,0 +1,654 @@
+fileFormatVersion: 1
+guid: 9f463eb7e440545149e1559cea1562ab
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 0.01
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    //RootNode:
+    - 100000
+    - 400000
+    - 11100000
+    ParkingLot:
+    - 100002
+    - 400002
+    - 3300000
+    - 2300000
+    FacadeTexture:
+    - 100004
+    - 400004
+    - 3300002
+    - 2300002
+    RoofPlane_4:
+    - 100006
+    - 400006
+    - 3300004
+    - 2300004
+    Lot:
+    - 100008
+    - 400008
+    - 3300006
+    - 2300006
+    RoofPlane_7:
+    - 100010
+    - 400010
+    - 3300008
+    - 2300008
+    RoofPlane_9:
+    - 100012
+    - 400012
+    - 3300010
+    - 2300010
+    YardGround_2:
+    - 100014
+    - 400014
+    - 3300012
+    - 2300012
+    RoofPlane_12:
+    - 100016
+    - 400016
+    - 3300014
+    - 2300014
+    YardGround_10:
+    - 100018
+    - 400018
+    - 3300016
+    - 2300016
+    RoofPlane_14:
+    - 100020
+    - 400020
+    - 3300018
+    - 2300018
+    RoofPlane_17:
+    - 100022
+    - 400022
+    - 3300020
+    - 2300020
+    Concrete:
+    - 100024
+    - 400024
+    - 3300022
+    - 2300022
+    RoofPlane_5:
+    - 100026
+    - 400026
+    - 3300024
+    - 2300024
+    RoofPlane_20:
+    - 100028
+    - 400028
+    - 3300026
+    - 2300026
+    FacadeTexture_14:
+    - 100030
+    - 400030
+    - 3300028
+    - 2300028
+    RoofPlane_16:
+    - 100032
+    - 400032
+    - 3300030
+    - 2300030
+    RoofPlane:
+    - 100034
+    - 400034
+    - 3300032
+    - 2300032
+    RoofPlane_21:
+    - 100036
+    - 400036
+    - 3300034
+    - 2300034
+    FacadeTexture_10:
+    - 100038
+    - 400038
+    - 3300036
+    - 2300036
+    RoofPlane_13:
+    - 100040
+    - 400040
+    - 3300038
+    - 2300038
+    FacadeTexture_17:
+    - 100042
+    - 400042
+    - 3300040
+    - 2300040
+    RoofPlane_27:
+    - 100044
+    - 400044
+    - 3300042
+    - 2300042
+    RoofPlane_3:
+    - 100046
+    - 400046
+    - 3300044
+    - 2300044
+    RoofPlane_28:
+    - 100048
+    - 400048
+    - 3300046
+    - 2300046
+    RoofPlane_26:
+    - 100050
+    - 400050
+    - 3300048
+    - 2300048
+    FacadeTexture_2:
+    - 100052
+    - 400052
+    - 3300050
+    - 2300050
+    ParkingLot_1:
+    - 100054
+    - 400054
+    - 3300052
+    - 2300052
+    RoofPlane_19:
+    - 100056
+    - 400056
+    - 3300054
+    - 2300054
+    YardGround_19:
+    - 100058
+    - 400058
+    - 3300056
+    - 2300056
+    YardGround_21:
+    - 100060
+    - 400060
+    - 3300058
+    - 2300058
+    YardGround_15:
+    - 100062
+    - 400062
+    - 3300060
+    - 2300060
+    RoofPlane_29:
+    - 100064
+    - 400064
+    - 3300062
+    - 2300062
+    RoofPlane_24:
+    - 100066
+    - 400066
+    - 3300064
+    - 2300064
+    RoofPlane_6:
+    - 100068
+    - 400068
+    - 3300066
+    - 2300066
+    YardGround_23:
+    - 100070
+    - 400070
+    - 3300068
+    - 2300068
+    Street:
+    - 100072
+    - 400072
+    - 3300070
+    - 2300070
+    Pavement:
+    - 100074
+    - 400074
+    - 3300072
+    - 2300072
+    Curbs:
+    - 100076
+    - 400076
+    - 3300074
+    - 2300074
+    RoofPlane_30:
+    - 100078
+    - 400078
+    - 3300076
+    - 2300076
+    RoofPlane_8:
+    - 100080
+    - 400080
+    - 3300078
+    - 2300078
+    RoofPlane_31:
+    - 100082
+    - 400082
+    - 3300080
+    - 2300080
+    FacadeTexture_8:
+    - 100084
+    - 400084
+    - 3300082
+    - 2300082
+    YardGround_11:
+    - 100086
+    - 400086
+    - 3300084
+    - 2300084
+    RoofPlane_1:
+    - 100088
+    - 400088
+    - 3300086
+    - 2300086
+    FacadeTexture_9:
+    - 100090
+    - 400090
+    - 3300088
+    - 2300088
+    RoofPlane_18:
+    - 100092
+    - 400092
+    - 3300090
+    - 2300090
+    RoofPlane_2:
+    - 100094
+    - 400094
+    - 3300092
+    - 2300092
+    FacadeTexture_13:
+    - 100096
+    - 400096
+    - 3300094
+    - 2300094
+    YardGround_7:
+    - 100098
+    - 400098
+    - 3300096
+    - 2300096
+    RoofPlane_15:
+    - 100100
+    - 400100
+    - 3300098
+    - 2300098
+    FacadeTexture_5:
+    - 100102
+    - 400102
+    - 3300100
+    - 2300100
+    YardGround_14:
+    - 100104
+    - 400104
+    - 3300102
+    - 2300102
+    RoofPlane_33:
+    - 100106
+    - 400106
+    - 3300104
+    - 2300104
+    FacadeTexture_6:
+    - 100108
+    - 400108
+    - 3300106
+    - 2300106
+    YardGround_18:
+    - 100110
+    - 400110
+    - 3300108
+    - 2300108
+    FacadeTexture_16:
+    - 100112
+    - 400112
+    - 3300110
+    - 2300110
+    RoofPlane_34:
+    - 100114
+    - 400114
+    - 3300112
+    - 2300112
+    FacadeTexture_15:
+    - 100116
+    - 400116
+    - 3300114
+    - 2300114
+    YardGround_20:
+    - 100118
+    - 400118
+    - 3300116
+    - 2300116
+    RoofPlane_22:
+    - 100120
+    - 400120
+    - 3300118
+    - 2300118
+    RoofPlane_32:
+    - 100122
+    - 400122
+    - 3300120
+    - 2300120
+    YardGround_26:
+    - 100124
+    - 400124
+    - 3300122
+    - 2300122
+    RoofPlane_11:
+    - 100126
+    - 400126
+    - 3300124
+    - 2300124
+    YardGround_16:
+    - 100128
+    - 400128
+    - 3300126
+    - 2300126
+    YardGround_24:
+    - 100130
+    - 400130
+    - 3300128
+    - 2300128
+    YardGround_28:
+    - 100132
+    - 400132
+    - 3300130
+    - 2300130
+    YardGround_27:
+    - 100134
+    - 400134
+    - 3300132
+    - 2300132
+    YardGround_6:
+    - 100136
+    - 400136
+    - 3300134
+    - 2300134
+    FacadeTexture_1:
+    - 100138
+    - 400138
+    - 3300136
+    - 2300136
+    RoofPlane_35:
+    - 100140
+    - 400140
+    - 3300138
+    - 2300138
+    YardGround_22:
+    - 100142
+    - 400142
+    - 3300140
+    - 2300140
+    RoofPlane_25:
+    - 100144
+    - 400144
+    - 3300142
+    - 2300142
+    FacadeTexture_7:
+    - 100146
+    - 400146
+    - 3300144
+    - 2300144
+    RoofPlane_36:
+    - 100148
+    - 400148
+    - 3300146
+    - 2300146
+    FacadeTexture_3:
+    - 100150
+    - 400150
+    - 3300148
+    - 2300148
+    YardGround_29:
+    - 100152
+    - 400152
+    - 3300150
+    - 2300150
+    YardGround_30:
+    - 100154
+    - 400154
+    - 3300152
+    - 2300152
+    YardGround_13:
+    - 100156
+    - 400156
+    - 3300154
+    - 2300154
+    YardGround_4:
+    - 100158
+    - 400158
+    - 3300156
+    - 2300156
+    YardGround_12:
+    - 100160
+    - 400160
+    - 3300158
+    - 2300158
+    RoofPlane_37:
+    - 100162
+    - 400162
+    - 3300160
+    - 2300160
+    FacadeTexture_12:
+    - 100164
+    - 400164
+    - 3300162
+    - 2300162
+    YardGround_9:
+    - 100166
+    - 400166
+    - 3300164
+    - 2300164
+    YardGround_3:
+    - 100168
+    - 400168
+    - 3300166
+    - 2300166
+    YardGround_25:
+    - 100170
+    - 400170
+    - 3300168
+    - 2300168
+    YardGround_17:
+    - 100172
+    - 400172
+    - 3300170
+    - 2300170
+    FlatRoofTexture_2:
+    - 100174
+    - 400174
+    - 3300172
+    - 2300172
+    FlatRoofTexture_3:
+    - 100176
+    - 400176
+    - 3300174
+    - 2300174
+    FlatRoofTexture_6:
+    - 100178
+    - 400178
+    - 3300176
+    - 2300176
+    FlatRoofTexture_8:
+    - 100180
+    - 400180
+    - 3300178
+    - 2300178
+    FlatRoofTexture_9:
+    - 100182
+    - 400182
+    - 3300180
+    - 2300180
+    RoofPlane_23:
+    - 100184
+    - 400184
+    - 3300182
+    - 2300182
+    FacadeTexture_4:
+    - 100186
+    - 400186
+    - 3300184
+    - 2300184
+    YardGround_1:
+    - 100188
+    - 400188
+    - 3300186
+    - 2300186
+    YardGround_5:
+    - 100190
+    - 400190
+    - 3300188
+    - 2300188
+    YardGround:
+    - 100192
+    - 400192
+    - 3300190
+    - 2300190
+    YardGround_8:
+    - 100194
+    - 400194
+    - 3300192
+    - 2300192
+    FlatRoofTexture:
+    - 100196
+    - 400196
+    - 3300194
+    - 2300194
+    FlatRoofTexture_5:
+    - 100198
+    - 400198
+    - 3300196
+    - 2300196
+    FlatRoofTexture_7:
+    - 100200
+    - 400200
+    - 3300198
+    - 2300198
+    FlatRoofTexture_1:
+    - 100202
+    - 400202
+    - 3300200
+    - 2300200
+    FlatRoofTexture_4:
+    - 100204
+    - 400204
+    - 3300202
+    - 2300202
+    RoofPlane_10:
+    - 100206
+    - 400206
+    - 3300204
+    - 2300204
+    FacadeTexture_11:
+    - 100208
+    - 400208
+    - 3300206
+    - 2300206
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: FacadeTexture_11
+    4300002: RoofPlane_10
+    4300004: FlatRoofTexture_4
+    4300006: FlatRoofTexture_1
+    4300008: FlatRoofTexture_7
+    4300010: FlatRoofTexture_5
+    4300012: FlatRoofTexture
+    4300014: YardGround_8
+    4300016: YardGround
+    4300018: YardGround_5
+    4300020: YardGround_1
+    4300022: FacadeTexture_4
+    4300024: RoofPlane_23
+    4300026: FlatRoofTexture_9
+    4300028: FlatRoofTexture_8
+    4300030: FlatRoofTexture_6
+    4300032: FlatRoofTexture_3
+    4300034: FlatRoofTexture_2
+    4300036: YardGround_17
+    4300038: YardGround_25
+    4300040: YardGround_3
+    4300042: YardGround_9
+    4300044: FacadeTexture_12
+    4300046: RoofPlane_37
+    4300048: YardGround_12
+    4300050: YardGround_4
+    4300052: YardGround_13
+    4300054: YardGround_30
+    4300056: YardGround_29
+    4300058: FacadeTexture_3
+    4300060: RoofPlane_36
+    4300062: FacadeTexture_7
+    4300064: RoofPlane_25
+    4300066: YardGround_22
+    4300068: RoofPlane_35
+    4300070: FacadeTexture_1
+    4300072: YardGround_6
+    4300074: YardGround_27
+    4300076: YardGround_28
+    4300078: YardGround_24
+    4300080: YardGround_16
+    4300082: RoofPlane_11
+    4300084: YardGround_26
+    4300086: RoofPlane_32
+    4300088: RoofPlane_22
+    4300090: YardGround_20
+    4300092: FacadeTexture_15
+    4300094: RoofPlane_34
+    4300096: FacadeTexture_16
+    4300098: YardGround_18
+    4300100: FacadeTexture_6
+    4300102: RoofPlane_33
+    4300104: YardGround_14
+    4300106: FacadeTexture_5
+    4300108: RoofPlane_15
+    4300110: YardGround_7
+    4300112: FacadeTexture_13
+    4300114: RoofPlane_2
+    4300116: RoofPlane_18
+    4300118: FacadeTexture_9
+    4300120: RoofPlane_1
+    4300122: YardGround_11
+    4300124: FacadeTexture_8
+    4300126: RoofPlane_31
+    4300128: RoofPlane_8
+    4300130: RoofPlane_30
+    4300132: Curbs
+    4300134: Pavement
+    4300136: Street
+    4300138: YardGround_23
+    4300140: RoofPlane_6
+    4300142: RoofPlane_24
+    4300144: RoofPlane_29
+    4300146: YardGround_15
+    4300148: YardGround_21
+    4300150: YardGround_19
+    4300152: RoofPlane_19
+    4300154: ParkingLot_1
+    4300156: FacadeTexture_2
+    4300158: RoofPlane_26
+    4300160: RoofPlane_28
+    4300162: RoofPlane_3
+    4300164: RoofPlane_27
+    4300166: FacadeTexture_17
+    4300168: RoofPlane_13
+    4300170: FacadeTexture_10
+    4300172: RoofPlane_21
+    4300174: RoofPlane
+    4300176: RoofPlane_16
+    4300178: FacadeTexture_14
+    4300180: RoofPlane_20
+    4300182: RoofPlane_5
+    4300184: Concrete
+    4300186: RoofPlane_17
+    4300188: RoofPlane_14
+    4300190: YardGround_10
+    4300192: RoofPlane_12
+    4300194: YardGround_2
+    4300196: RoofPlane_9
+    4300198: RoofPlane_7
+    4300202: RoofPlane_4
+    4300204: FacadeTexture
+    4300206: ParkingLot

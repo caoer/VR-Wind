@@ -5,6 +5,7 @@ public class MyGUIScript :MonoBehaviour {
 
     private int kOffsetY = 30;
     public static bool shouldMouseLookEnable;
+	public static bool shouldEscapePressed;
     public float[] sliderValue;
     public float[] redSliderValue;
     public GameObject[] alphaSliderGameObject;
@@ -12,6 +13,9 @@ public class MyGUIScript :MonoBehaviour {
 
     public GameObject gearBoxObject;
     public GameObject bladeObject;
+	
+	public GameObject mainCamera;
+	
     bool hasStartedYet = false;
     void Start () {
         sliderValue = new float[alphaSliderGameObject.Length];
@@ -42,6 +46,20 @@ public class MyGUIScript :MonoBehaviour {
         if (Input.GetButtonDown("toogleMouse")) {
             shouldMouseLookEnable = !shouldMouseLookEnable;
         }
+		
+//		if (Input.GetKeyUp(KeyCode.Escape)) {
+//			if(shouldEscapePressed) {
+//				shouldEscapePressed = false;
+//				((Behaviour)mainCamera.GetComponent("BlurEffect")).enabled = false;
+//
+//			}
+//			else {
+//				shouldEscapePressed = true;
+//				shouldMouseLookEnable = false;
+//			}
+//
+//		}
+		
         for (int i = 0;i < sliderValue.Length; i ++) {
             this.changeAlpha(alphaSliderGameObject[i], sliderValue[i]);
         }
@@ -56,6 +74,8 @@ public class MyGUIScript :MonoBehaviour {
             }
             
         }
+		
+		
     }
 
     void changeAlpha(GameObject g, float alpha) {
@@ -73,6 +93,23 @@ public class MyGUIScript :MonoBehaviour {
         else {
             Screen.showCursor = true;
         }
+		
+		
+			
+		if(PauseMenu.pauseEnabled ) {
+			return;	
+		}
+		
+		drawGUIControl();
+		drawGUIMenu();
+    }
+	
+	void drawGUIMenu() {
+			
+	}
+	
+	void drawGUIControl() {
+		
         if (!hasStartedYet) {
             if (GUI.Button(new Rect(100, 100, 100, 50), "Start")) {
                 GameObject[] bladesAnimation = GameObject.FindGameObjectsWithTag("blades");
@@ -140,7 +177,7 @@ public class MyGUIScript :MonoBehaviour {
 
         GUI.Label(new Rect(25, 300, 150, 60), "Press M to enable mouse look");
         GUI.EndGroup();
-    }
+	}
 
 
 }

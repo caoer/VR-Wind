@@ -1,0 +1,10 @@
+newmtl CityEngineShapeMaterial
+    illum 3
+    Ks 0 0 0
+    Ns 0
+    map_Kd windFarmGoogleEarth.jpg
+    Kd 1 1 1
+    d 1
+    Ka 0 0 0
+    Tf 1.0 1.0 1.0
+    Ni 1.0

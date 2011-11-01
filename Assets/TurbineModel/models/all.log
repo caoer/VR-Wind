@@ -1,0 +1,158 @@
+EXPORT LOG / CityEngine 2010.3.12071218
+---------------------------------------------------
+
+export started at: Tue Oct 18 16:06:40 2011
+export completed at: Tue Oct 18 16:06:44 2011
+export duration: 4.2 seconds
+
+EXPORT SETTINGS
+    format:                Autodesk FBX 2011
+    location:              /Users/cosmo/CityEngine/WindFarm/models
+    base name:             all
+    export content:        0 (0 = models only, 1 = fallback to shape, 2 = shapes only)
+    file granularity:      0 (0 = single file (or split by file budget), 1 = file per initial shape)
+    file size budget:      524288000
+    mesh granularity:      1 (0 = as generated, 1 = mesh per material, 2 = use instances of inserted assets) 
+    vertex precision:      0.00100
+    normal precision:      0.00100
+    texcoord precision:    0.00010
+    merge vertices:        1
+    merge normals:         1
+    merge texcoords:       1
+    triangulate:           0
+    reproject texcoords:   0
+    vertex indexing:       0 (0 = allow shared vertices, 1 = force separate vertices)
+    normals type:          0 (0 = use vertex normals, 1 = use face normals (flat))
+    normals indexing:      0 (0 = allow shared normals, 1 = force separate normals)
+    write texcoords:       2 (0 = no texcoords, 1 = first layer, 2 = all layers)
+    write materials:       1
+    collect textures:      1
+    file type:             1 (0 = ascii, 1 = binary)
+    embed textures:        0
+    write master file:     0
+    master group name:     CityEngineSceneRoot
+    write cam data:        1
+    batch behavior:        0 (0 = normal, 1 = skip existing files, 2 = dry run)
+
+INPUT STATS
+    number of initial shapes      = 35
+    number of generated shapes    = 13628
+    number of generated meshes    = 13628
+    number of generated materials = 13628
+
+OUTPUT STATS
+    written files: 1
+    written materials: 68
+    written meshes (total polygons): 68 (13633)
+    mesh names (polygons):
+            0: 'FacadeTexture_3' (762)
+            1: 'YardGround_2' (85)
+            2: 'RoofPlane_3' (70)
+            3: 'YardGround_4' (4)
+            4: 'RoofPlane_7' (32)
+            5: 'FacadeTexture_8' (64)
+            6: 'RoofPlane_6' (125)
+            7: 'FacadeTexture_7' (1750)
+            8: 'YardGround_3' (139)
+            9: 'RoofPlane_13' (115)
+           10: 'RoofPlane_15' (26)
+           11: 'RoofPlane_18' (32)
+           12: 'CityEngineMaterial' (0)
+           13: 'YardGround_9' (33)
+           14: 'YardGround_14' (1)
+           15: 'RoofPlane_9' (102)
+           16: 'RoofPlane_17' (76)
+           17: 'FacadeTexture_4' (1787)
+           18: 'RoofPlane_4' (430)
+           19: 'FacadeTexture_11' (110)
+           20: 'RoofPlane_21' (62)
+           21: 'YardGround_19' (2)
+           22: 'YardGround_18' (2)
+           23: 'RoofPlane_11' (187)
+           24: 'YardGround_10' (30)
+           25: 'YardGround_11' (8)
+           26: 'FacadeTexture_12' (249)
+           27: 'RoofPlane_14' (102)
+           28: 'FlatRoofTexture_6' (40)
+           29: 'RoofPlane' (6)
+           30: 'FlatRoofTexture_3' (30)
+           31: 'FlatRoofTexture_1' (38)
+           32: 'FacadeTexture' (91)
+           33: 'FlatRoofTexture_5' (30)
+           34: 'FlatRoofTexture_4' (37)
+           35: 'FlatRoofTexture_2' (30)
+           36: 'FlatRoofTexture' (50)
+           37: 'ParkingLot' (5)
+           38: 'FacadeTexture_2' (499)
+           39: 'FacadeTexture_5' (1572)
+           40: 'YardGround_1' (73)
+           41: 'RoofPlane_2' (156)
+           42: 'RoofPlane_16' (164)
+           43: 'FacadeTexture_9' (392)
+           44: 'RoofPlane_12' (198)
+           45: 'FacadeTexture_6' (751)
+           46: 'YardGround_12' (6)
+           47: 'YardGround_5' (50)
+           48: 'YardGround_6' (2)
+           49: 'YardGround_7' (1)
+           50: 'RoofPlane_8' (58)
+           51: 'RoofPlane_10' (237)
+           52: 'FlatRoofTexture_9' (46)
+           53: 'FacadeTexture_1' (548)
+           54: 'FlatRoofTexture_7' (39)
+           55: 'YardGround_13' (5)
+           56: 'FlatRoofTexture_8' (36)
+           57: 'RoofPlane_1' (159)
+           58: 'YardGround' (46)
+           59: 'YardGround_8' (14)
+           60: 'FacadeTexture_10' (164)
+           61: 'RoofPlane_5' (285)
+           62: 'RoofPlane_20' (272)
+           63: 'YardGround_16' (85)
+           64: 'YardGround_15' (27)
+           65: 'RoofPlane_22' (292)
+           66: 'YardGround_17' (10)
+           67: 'RoofPlane_19' (704)
+
+INPUT REPORT
+    collected/generated initial shapes:
+            0: OK    : shape                                    OID: 9837d470-086a-1400-84c1-000688ce0fbf
+            1: OK    : shape_1                                  OID: 1b1efea8-086c-1400-84c1-000688ce0fbf
+            2: ERROR : shape_2                                  OID: 6fc4fd08-086d-1400-84c1-000688ce0fbf
+            3: OK    : shape_3                                  OID: b4562928-086e-1400-84c1-000688ce0fbf
+            4: OK    : shape_4                                  OID: e6104a10-086f-1400-84c1-000688ce0fbf
+            5: OK    : shape_5                                  OID: c80b12d8-0870-1400-84c1-000688ce0fbf
+            6: OK    : shape_6                                  OID: 86a0df38-0a6b-1400-84c1-000688ce0fbf
+            7: OK    : shape_7                                  OID: 94d046b0-0a6c-1400-84c1-000688ce0fbf
+            8: OK    : shape_8                                  OID: 3e961430-0a6e-1400-84c1-000688ce0fbf
+            9: OK    : shape_9                                  OID: 97807f98-0a75-1400-84c1-000688ce0fbf
+           10: OK    : shape_10                                 OID: 2c98c878-0a77-1400-84c1-000688ce0fbf
+           11: OK    : shape_11                                 OID: f456add0-0a77-1400-84c1-000688ce0fbf
+           12: OK    : shape_12                                 OID: f6810aa0-0a78-1400-84c1-000688ce0fbf
+           13: OK    : shape_13                                 OID: 5d4caa40-0a7a-1400-84c1-000688ce0fbf
+           14: OK    : shape_14                                 OID: 986f6c88-0a7b-1400-84c1-000688ce0fbf
+           15: OK    : shape_15                                 OID: 98c300a8-0a7d-1400-84c1-000688ce0fbf
+           16: OK    : shape_16                                 OID: 19a40658-0a7f-1400-84c1-000688ce0fbf
+           17: OK    : shape_17                                 OID: eaddcec0-0a7f-1400-84c1-000688ce0fbf
+           18: OK    : shape_18                                 OID: a7f1b918-0a80-1400-84c1-000688ce0fbf
+           19: OK    : shape_19                                 OID: 956ce398-0a81-1400-84c1-000688ce0fbf
+           20: OK    : shape_20                                 OID: 628705e8-0a82-1400-84c1-000688ce0fbf
+           21: OK    : shape_21                                 OID: ea180920-0a83-1400-84c1-000688ce0fbf
+           22: OK    : shape_22                                 OID: c2b5a620-0a84-1400-84c1-000688ce0fbf
+           23: OK    : shape_23                                 OID: 75c781c0-0a85-1400-84c1-000688ce0fbf
+           24: OK    : shape_24                                 OID: eb438970-0a86-1400-84c1-000688ce0fbf
+           25: OK    : shape_25                                 OID: 63db24d0-0a8f-1400-84c1-000688ce0fbf
+           26: OK    : shape_26                                 OID: bff93a20-0a91-1400-84c1-000688ce0fbf
+           27: OK    : shape_27                                 OID: 4d7c9d10-0a92-1400-84c1-000688ce0fbf
+           28: OK    : shape_28                                 OID: f321bc00-0a92-1400-84c1-000688ce0fbf
+           29: OK    : shape_29                                 OID: cf38a7e8-0a94-1400-84c1-000688ce0fbf
+           30: OK    : shape_30                                 OID: 81930eb0-0a95-1400-84c1-000688ce0fbf
+           31: OK    : shape_31                                 OID: bc108490-0a96-1400-84c1-000688ce0fbf
+           32: OK    : shape_32                                 OID: b584f218-0a97-1400-84c1-000688ce0fbf
+           33: OK    : shape_33                                 OID: 3daa1858-0a98-1400-84c1-000688ce0fbf
+           34: OK    : shape_34                                 OID: ed532678-0a98-1400-84c1-000688ce0fbf
+
+OUTPUT REPORT
+    written files & status:
+            0: OK:      /Users/cosmo/CityEngine/WindFarm/models/all_0.fbx
+

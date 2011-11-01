@@ -1,0 +1,1556 @@
+EXPORT LOG / CityEngine 2010.3.12071218
+---------------------------------------------------
+
+export started at: Tue Oct 18 16:04:22 2011
+export completed at: Tue Oct 18 16:04:28 2011
+export duration: 5.9 seconds
+
+EXPORT SETTINGS
+    format:                Autodesk FBX 2011
+    location:              /Users/cosmo/CityEngine/WindFarm/models
+    base name:             mainSceneModels
+    export content:        0 (0 = models only, 1 = fallback to shape, 2 = shapes only)
+    file granularity:      0 (0 = single file (or split by file budget), 1 = file per initial shape)
+    file size budget:      524288000
+    mesh granularity:      1 (0 = as generated, 1 = mesh per material, 2 = use instances of inserted assets) 
+    vertex precision:      0.00100
+    normal precision:      0.00100
+    texcoord precision:    0.00010
+    merge vertices:        1
+    merge normals:         1
+    merge texcoords:       1
+    triangulate:           0
+    reproject texcoords:   0
+    vertex indexing:       0 (0 = allow shared vertices, 1 = force separate vertices)
+    normals type:          0 (0 = use vertex normals, 1 = use face normals (flat))
+    normals indexing:      0 (0 = allow shared normals, 1 = force separate normals)
+    write texcoords:       2 (0 = no texcoords, 1 = first layer, 2 = all layers)
+    write materials:       1
+    collect textures:      1
+    file type:             1 (0 = ascii, 1 = binary)
+    embed textures:        0
+    write master file:     0
+    master group name:     CityEngineSceneRoot
+    write cam data:        1
+    batch behavior:        0 (0 = normal, 1 = skip existing files, 2 = dry run)
+
+INPUT STATS
+    number of initial shapes      = 1397
+    number of generated shapes    = 20958
+    number of generated meshes    = 20958
+    number of generated materials = 20958
+
+OUTPUT STATS
+    written files: 1
+    written materials: 104
+    written meshes (total polygons): 104 (21690)
+    mesh names (polygons):
+            0: 'Street' (531)
+            1: 'Pavement' (1413)
+            2: 'RoofPlane_25' (720)
+            3: 'Concrete' (702)
+            4: 'YardGround_19' (2)
+            5: 'YardGround_27' (6)
+            6: 'YardGround_18' (3)
+            7: 'YardGround_14' (3)
+            8: 'Curbs' (2873)
+            9: 'CityEngineMaterial' (0)
+           10: 'FacadeTexture_3' (762)
+           11: 'YardGround_2' (85)
+           12: 'RoofPlane_3' (75)
+           13: 'RoofPlane_6' (143)
+           14: 'YardGround_3' (139)
+           15: 'FacadeTexture_7' (1870)
+           16: 'YardGround_21' (3)
+           17: 'ParkingLot_1' (2)
+           18: 'YardGround_24' (5)
+           19: 'RoofPlane_26' (33)
+           20: 'RoofPlane_27' (5)
+           21: 'RoofPlane_22' (30)
+           22: 'FacadeTexture_14' (42)
+           23: 'YardGround_22' (14)
+           24: 'RoofPlane_24' (59)
+           25: 'RoofPlane_15' (34)
+           26: 'YardGround_20' (11)
+           27: 'RoofPlane_21' (40)
+           28: 'FacadeTexture_16' (72)
+           29: 'FacadeTexture_11' (277)
+           30: 'RoofPlane_12' (198)
+           31: 'YardGround_10' (30)
+           32: 'YardGround_11' (19)
+           33: 'RoofPlane_11' (216)
+           34: 'YardGround_17' (95)
+           35: 'FacadeTexture_12' (306)
+           36: 'YardGround_16' (3)
+           37: 'RoofPlane_19' (36)
+           38: 'FlatRoofTexture_6' (49)
+           39: 'RoofPlane' (44)
+           40: 'FlatRoofTexture_4' (46)
+           41: 'FlatRoofTexture_3' (35)
+           42: 'FacadeTexture' (91)
+           43: 'FlatRoofTexture_5' (33)
+           44: 'FlatRoofTexture_2' (36)
+           45: 'FlatRoofTexture_1' (45)
+           46: 'ParkingLot' (5)
+           47: 'FlatRoofTexture' (59)
+           48: 'RoofPlane_13' (149)
+           49: 'FlatRoofTexture_8' (47)
+           50: 'RoofPlane_1' (168)
+           51: 'RoofPlane_10' (241)
+           52: 'YardGround_8' (19)
+           53: 'FacadeTexture_1' (548)
+           54: 'FacadeTexture_2' (517)
+           55: 'FlatRoofTexture_9' (51)
+           56: 'RoofPlane_35' (32)
+           57: 'YardGround' (47)
+           58: 'FlatRoofTexture_7' (48)
+           59: 'YardGround_1' (74)
+           60: 'RoofPlane_2' (198)
+           61: 'RoofPlane_16' (192)
+           62: 'FacadeTexture_9' (478)
+           63: 'RoofPlane_8' (78)
+           64: 'YardGround_6' (7)
+           65: 'YardGround_7' (7)
+           66: 'YardGround_5' (50)
+           67: 'FacadeTexture_6' (781)
+           68: 'YardGround_12' (15)
+           69: 'YardGround_13' (7)
+           70: 'RoofPlane_4' (430)
+           71: 'YardGround_25' (35)
+           72: 'FacadeTexture_4' (2076)
+           73: 'FacadeTexture_8' (90)
+           74: 'RoofPlane_18' (46)
+           75: 'YardGround_15' (6)
+           76: 'YardGround_4' (10)
+           77: 'RoofPlane_7' (32)
+           78: 'YardGround_26' (7)
+           79: 'YardGround_9' (44)
+           80: 'RoofPlane_20' (20)
+           81: 'RoofPlane_28' (30)
+           82: 'RoofPlane_23' (320)
+           83: 'FacadeTexture_13' (140)
+           84: 'FacadeTexture_15' (40)
+           85: 'YardGround_23' (3)
+           86: 'FacadeTexture_17' (42)
+           87: 'RoofPlane_29' (26)
+           88: 'RoofPlane_32' (56)
+           89: 'RoofPlane_33' (14)
+           90: 'RoofPlane_34' (4)
+           91: 'RoofPlane_5' (297)
+           92: 'FacadeTexture_5' (2041)
+           93: 'RoofPlane_9' (102)
+           94: 'RoofPlane_14' (102)
+           95: 'YardGround_28' (1)
+           96: 'RoofPlane_30' (16)
+           97: 'RoofPlane_31' (14)
+           98: 'RoofPlane_17' (76)
+           99: 'FacadeTexture_10' (178)
+          100: 'YardGround_29' (2)
+          101: 'YardGround_30' (2)
+          102: 'RoofPlane_37' (62)
+          103: 'RoofPlane_36' (272)
+
+INPUT REPORT
+    collected/generated initial shapes:
+            0: OK    : shape                                    OID: 9b59ee80-06cc-1400-84c1-000688ce0fbf:0
+            1: OK    : shape_1                                  OID: 9b59ee80-06cc-1400-84c1-000688ce0fbf:1
+            2: OK    : shape_2                                  OID: 9b59ee80-06cc-1400-84c1-000688ce0fbf:2
+            3: OK    : shape_3                                  OID: 9b5d1ee8-06cc-1400-84c1-000688ce0fbf:0
+            4: OK    : shape_4                                  OID: 9b5d1ee8-06cc-1400-84c1-000688ce0fbf:1
+            5: OK    : shape_5                                  OID: 9b5d1ee8-06cc-1400-84c1-000688ce0fbf:2
+            6: OK    : shape_6                                  OID: 9b5d1ee8-06cc-1400-84c1-000688ce0fbf:3
+            7: OK    : shape_7                                  OID: 9b5d1ee8-06cc-1400-84c1-000688ce0fbf:4
+            8: OK    : shape_8                                  OID: 9b5dab88-06cc-1400-84c1-000688ce0fbf:0
+            9: OK    : shape_9                                  OID: 9b5dab88-06cc-1400-84c1-000688ce0fbf:1
+           10: OK    : shape_10                                 OID: 9b5dab88-06cc-1400-84c1-000688ce0fbf:2
+           11: OK    : shape_11                                 OID: 9b5f2e40-06cc-1400-84c1-000688ce0fbf:0
+           12: OK    : shape_12                                 OID: 9b5f2e40-06cc-1400-84c1-000688ce0fbf:1
+           13: OK    : shape_13                                 OID: 9b5f2e40-06cc-1400-84c1-000688ce0fbf:2
+           14: OK    : shape_14                                 OID: 9b5f2e40-06cc-1400-84c1-000688ce0fbf:3
+           15: OK    : shape_15                                 OID: 9b5f2e40-06cc-1400-84c1-000688ce0fbf:4
+           16: OK    : shape_16                                 OID: 9b639ef8-06cc-1400-84c1-000688ce0fbf:0
+           17: OK    : shape_17                                 OID: 9b639ef8-06cc-1400-84c1-000688ce0fbf:1
+           18: OK    : shape_18                                 OID: 9b639ef8-06cc-1400-84c1-000688ce0fbf:2
+           19: OK    : shape_19                                 OID: 9b858e78-06cc-1400-84c1-000688ce0fbf:0
+           20: OK    : shape_20                                 OID: 9b858e78-06cc-1400-84c1-000688ce0fbf:1
+           21: OK    : shape_21                                 OID: 9b858e78-06cc-1400-84c1-000688ce0fbf:2
+           22: OK    : shape_22                                 OID: 9b858e78-06cc-1400-84c1-000688ce0fbf:3
+           23: OK    : shape_23                                 OID: 9b8b81e8-06cc-1400-84c1-000688ce0fbf:0
+           24: OK    : shape_24                                 OID: 9b8b81e8-06cc-1400-84c1-000688ce0fbf:1
+           25: OK    : shape_25                                 OID: 9b8b81e8-06cc-1400-84c1-000688ce0fbf:2
+           26: OK    : shape_26                                 OID: 9b8b81e8-06cc-1400-84c1-000688ce0fbf:3
+           27: OK    : shape_27                                 OID: 9b8d7db8-06cc-1400-84c1-000688ce0fbf:0
+           28: OK    : shape_28                                 OID: 9b8d7db8-06cc-1400-84c1-000688ce0fbf:1
+           29: OK    : shape_29                                 OID: 9b8d7db8-06cc-1400-84c1-000688ce0fbf:2
+           30: OK    : shape_30                                 OID: 9b8d7db8-06cc-1400-84c1-000688ce0fbf:3
+           31: OK    : shape_31                                 OID: 9b8df6d0-06cc-1400-84c1-000688ce0fbf:0
+           32: OK    : shape_32                                 OID: 9b8df6d0-06cc-1400-84c1-000688ce0fbf:1
+           33: OK    : shape_33                                 OID: 9b8df6d0-06cc-1400-84c1-000688ce0fbf:2
+           34: OK    : shape_34                                 OID: 9b902180-06cc-1400-84c1-000688ce0fbf:0
+           35: OK    : shape_35                                 OID: 9b902180-06cc-1400-84c1-000688ce0fbf:1
+           36: OK    : shape_36                                 OID: 9b902180-06cc-1400-84c1-000688ce0fbf:2
+           37: OK    : shape_37                                 OID: 9b902180-06cc-1400-84c1-000688ce0fbf:3
+           38: OK    : shape_38                                 OID: 9b902180-06cc-1400-84c1-000688ce0fbf:4
+           39: OK    : shape_39                                 OID: 9b90d918-06cc-1400-84c1-000688ce0fbf:0
+           40: OK    : shape_40                                 OID: 9b90d918-06cc-1400-84c1-000688ce0fbf:1
+           41: OK    : shape_41                                 OID: 9b90d918-06cc-1400-84c1-000688ce0fbf:2
+           42: OK    : shape_42                                 OID: 9b940980-06cc-1400-84c1-000688ce0fbf:0
+           43: OK    : shape_43                                 OID: 9b940980-06cc-1400-84c1-000688ce0fbf:1
+           44: OK    : shape_44                                 OID: 9b940980-06cc-1400-84c1-000688ce0fbf:2
+           45: OK    : shape_45                                 OID: 9b968250-06cc-1400-84c1-000688ce0fbf:0
+           46: OK    : shape_46                                 OID: 9b968250-06cc-1400-84c1-000688ce0fbf:1
+           47: OK    : shape_47                                 OID: 9b968250-06cc-1400-84c1-000688ce0fbf:2
+           48: OK    : shape_48                                 OID: 9b968250-06cc-1400-84c1-000688ce0fbf:3
+           49: OK    : shape_49                                 OID: 9b973dd0-06cc-1400-84c1-000688ce0fbf:0
+           50: OK    : shape_50                                 OID: 9b973dd0-06cc-1400-84c1-000688ce0fbf:1
+           51: OK    : shape_51                                 OID: 9b973dd0-06cc-1400-84c1-000688ce0fbf:2
+           52: OK    : shape_52                                 OID: 9b9a6280-06cc-1400-84c1-000688ce0fbf:0
+           53: OK    : shape_53                                 OID: 9b9a6280-06cc-1400-84c1-000688ce0fbf:1
+           54: OK    : shape_54                                 OID: 9b9a6280-06cc-1400-84c1-000688ce0fbf:2
+           55: OK    : shape_55                                 OID: 9b9d96d0-06cc-1400-84c1-000688ce0fbf:0
+           56: OK    : shape_56                                 OID: 9b9d96d0-06cc-1400-84c1-000688ce0fbf:1
+           57: OK    : shape_57                                 OID: 9b9d96d0-06cc-1400-84c1-000688ce0fbf:2
+           58: OK    : shape_58                                 OID: 9ba01f40-06cc-1400-84c1-000688ce0fbf:0
+           59: OK    : shape_59                                 OID: 9ba01f40-06cc-1400-84c1-000688ce0fbf:1
+           60: OK    : shape_60                                 OID: 9ba0d2f0-06cc-1400-84c1-000688ce0fbf:0
+           61: OK    : shape_61                                 OID: 9ba0d2f0-06cc-1400-84c1-000688ce0fbf:1
+           62: OK    : shape_62                                 OID: 9ba0d2f0-06cc-1400-84c1-000688ce0fbf:2
+           63: OK    : shape_63                                 OID: 9ba3f7a0-06cc-1400-84c1-000688ce0fbf:0
+           64: OK    : shape_64                                 OID: 9ba3f7a0-06cc-1400-84c1-000688ce0fbf:1
+           65: OK    : shape_65                                 OID: 9ba3f7a0-06cc-1400-84c1-000688ce0fbf:2
+           66: OK    : shape_66                                 OID: 9ba668a0-06cc-1400-84c1-000688ce0fbf:0
+           67: OK    : shape_67                                 OID: 9ba668a0-06cc-1400-84c1-000688ce0fbf:1
+           68: OK    : shape_68                                 OID: 9ba668a0-06cc-1400-84c1-000688ce0fbf:2
+           69: OK    : shape_69                                 OID: 9ba668a0-06cc-1400-84c1-000688ce0fbf:3
+           70: OK    : shape_70                                 OID: 9ba71c50-06cc-1400-84c1-000688ce0fbf:0
+           71: OK    : shape_71                                 OID: 9ba71c50-06cc-1400-84c1-000688ce0fbf:1
+           72: OK    : shape_72                                 OID: 9ba71c50-06cc-1400-84c1-000688ce0fbf:2
+           73: OK    : shape_73                                 OID: 9c384c48-06cc-1400-84c1-000688ce0fbf:0
+           74: OK    : shape_74                                 OID: 9c384c48-06cc-1400-84c1-000688ce0fbf:1
+           75: OK    : shape_75                                 OID: 9c384c48-06cc-1400-84c1-000688ce0fbf:2
+           76: OK    : shape_76                                 OID: 9c3ad0d0-06cc-1400-84c1-000688ce0fbf:0
+           77: OK    : shape_77                                 OID: 9c3ad0d0-06cc-1400-84c1-000688ce0fbf:1
+           78: OK    : shape_78                                 OID: 9c3ad0d0-06cc-1400-84c1-000688ce0fbf:2
+           79: OK    : shape_79                                 OID: 9c3ad0d0-06cc-1400-84c1-000688ce0fbf:3
+           80: OK    : shape_80                                 OID: 9c3b8868-06cc-1400-84c1-000688ce0fbf:0
+           81: OK    : shape_81                                 OID: 9c3b8868-06cc-1400-84c1-000688ce0fbf:1
+           82: OK    : shape_82                                 OID: 9c3b8868-06cc-1400-84c1-000688ce0fbf:2
+           83: OK    : shape_83                                 OID: 9d29a570-06cc-1400-84c1-000688ce0fbf:0
+           84: OK    : shape_84                                 OID: 9d29a570-06cc-1400-84c1-000688ce0fbf:1
+           85: OK    : shape_85                                 OID: 9d29a570-06cc-1400-84c1-000688ce0fbf:2
+           86: OK    : shape_86                                 OID: 9d29a570-06cc-1400-84c1-000688ce0fbf:3
+           87: OK    : shape_87                                 OID: 9d2c2228-06cc-1400-84c1-000688ce0fbf:0
+           88: OK    : shape_88                                 OID: 9d2c2228-06cc-1400-84c1-000688ce0fbf:1
+           89: OK    : shape_89                                 OID: 9d2c2228-06cc-1400-84c1-000688ce0fbf:2
+           90: OK    : shape_90                                 OID: 9f2ee380-06cc-1400-84c1-000688ce0fbf:0
+           91: OK    : shape_91                                 OID: 9f2ee380-06cc-1400-84c1-000688ce0fbf:1
+           92: OK    : shape_92                                 OID: 9f2ee380-06cc-1400-84c1-000688ce0fbf:2
+           93: OK    : shape_93                                 OID: 9f2ee380-06cc-1400-84c1-000688ce0fbf:3
+           94: OK    : shape_94                                 OID: 9f3023d0-06cc-1400-84c1-000688ce0fbf:0
+           95: OK    : shape_95                                 OID: 9f3023d0-06cc-1400-84c1-000688ce0fbf:1
+           96: OK    : shape_96                                 OID: 9f3023d0-06cc-1400-84c1-000688ce0fbf:2
+           97: OK    : shape_97                                 OID: a0240950-06cc-1400-84c1-000688ce0fbf:0
+           98: OK    : shape_98                                 OID: a0240950-06cc-1400-84c1-000688ce0fbf:1
+           99: OK    : shape_99                                 OID: a024c8b8-06cc-1400-84c1-000688ce0fbf:0
+          100: OK    : shape_100                                OID: a024c8b8-06cc-1400-84c1-000688ce0fbf:1
+          101: OK    : shape_101                                OID: a0255558-06cc-1400-84c1-000688ce0fbf:0
+          102: OK    : shape_102                                OID: a0255558-06cc-1400-84c1-000688ce0fbf:1
+          103: OK    : shape_103                                OID: a0255558-06cc-1400-84c1-000688ce0fbf:2
+          104: OK    : shape_104                                OID: a026bcb8-06cc-1400-84c1-000688ce0fbf:0
+          105: OK    : shape_105                                OID: a026bcb8-06cc-1400-84c1-000688ce0fbf:1
+          106: OK    : shape_106                                OID: a0274570-06cc-1400-84c1-000688ce0fbf:0
+          107: OK    : shape_107                                OID: a0274570-06cc-1400-84c1-000688ce0fbf:1
+          108: OK    : shape_108                                OID: a0274570-06cc-1400-84c1-000688ce0fbf:2
+          109: OK    : shape_109                                OID: a02929d0-06cc-1400-84c1-000688ce0fbf:0
+          110: OK    : shape_110                                OID: a02929d0-06cc-1400-84c1-000688ce0fbf:1
+          111: OK    : shape_111                                OID: a02929d0-06cc-1400-84c1-000688ce0fbf:2
+          112: OK    : shape_112                                OID: a12a9440-06cc-1400-84c1-000688ce0fbf:0
+          113: OK    : shape_113                                OID: a12a9440-06cc-1400-84c1-000688ce0fbf:1
+          114: OK    : shape_114                                OID: a12a9440-06cc-1400-84c1-000688ce0fbf:2
+          115: OK    : shape_115                                OID: a12a9440-06cc-1400-84c1-000688ce0fbf:3
+          116: OK    : shape_116                                OID: a12b4fc0-06cc-1400-84c1-000688ce0fbf:0
+          117: OK    : shape_117                                OID: a12b4fc0-06cc-1400-84c1-000688ce0fbf:1
+          118: OK    : shape_118                                OID: a12bdc60-06cc-1400-84c1-000688ce0fbf:0
+          119: OK    : shape_119                                OID: a12bdc60-06cc-1400-84c1-000688ce0fbf:1
+          120: OK    : shape_120                                OID: a12bdc60-06cc-1400-84c1-000688ce0fbf:2
+          121: OK    : shape_121                                OID: a12d3fd8-06cc-1400-84c1-000688ce0fbf:0
+          122: OK    : shape_122                                OID: a12d3fd8-06cc-1400-84c1-000688ce0fbf:1
+          123: OK    : shape_123                                OID: a12dc890-06cc-1400-84c1-000688ce0fbf:0
+          124: OK    : shape_124                                OID: a12dc890-06cc-1400-84c1-000688ce0fbf:1
+          125: OK    : shape_125                                OID: a12dc890-06cc-1400-84c1-000688ce0fbf:2
+          126: OK    : shape_126                                OID: a12f2438-06cc-1400-84c1-000688ce0fbf:0
+          127: OK    : shape_127                                OID: a12f2438-06cc-1400-84c1-000688ce0fbf:1
+          128: OK    : shape_128                                OID: a12fa908-06cc-1400-84c1-000688ce0fbf:0
+          129: OK    : shape_129                                OID: a12fa908-06cc-1400-84c1-000688ce0fbf:1
+          130: OK    : shape_130                                OID: a12fa908-06cc-1400-84c1-000688ce0fbf:2
+          131: OK    : shape_131                                OID: a131a0f0-06cc-1400-84c1-000688ce0fbf:0
+          132: OK    : shape_132                                OID: a131a0f0-06cc-1400-84c1-000688ce0fbf:1
+          133: OK    : shape_133                                OID: a131a0f0-06cc-1400-84c1-000688ce0fbf:2
+          134: OK    : shape_134                                OID: a22b9150-06cc-1400-84c1-000688ce0fbf:0
+          135: OK    : shape_135                                OID: a22b9150-06cc-1400-84c1-000688ce0fbf:1
+          136: OK    : shape_136                                OID: a22b9150-06cc-1400-84c1-000688ce0fbf:2
+          137: OK    : shape_137                                OID: a22b9150-06cc-1400-84c1-000688ce0fbf:3
+          138: OK    : shape_138                                OID: a22ce140-06cc-1400-84c1-000688ce0fbf:0
+          139: OK    : shape_139                                OID: a22ce140-06cc-1400-84c1-000688ce0fbf:1
+          140: OK    : shape_140                                OID: a22ce140-06cc-1400-84c1-000688ce0fbf:2
+          141: OK    : shape_141                                OID: a31f7ea0-06cc-1400-84c1-000688ce0fbf:0
+          142: OK    : shape_142                                OID: a31f7ea0-06cc-1400-84c1-000688ce0fbf:1
+          143: OK    : shape_143                                OID: a31f7ea0-06cc-1400-84c1-000688ce0fbf:2
+          144: OK    : shape_144                                OID: a31f7ea0-06cc-1400-84c1-000688ce0fbf:3
+          145: OK    : shape_145                                OID: a320bef0-06cc-1400-84c1-000688ce0fbf:0
+          146: OK    : shape_146                                OID: a320bef0-06cc-1400-84c1-000688ce0fbf:1
+          147: OK    : shape_147                                OID: a320bef0-06cc-1400-84c1-000688ce0fbf:2
+          148: OK    : shape_148                                OID: a32308e0-06cc-1400-84c1-000688ce0fbf:0
+          149: OK    : shape_149                                OID: a32308e0-06cc-1400-84c1-000688ce0fbf:1
+          150: OK    : shape_150                                OID: a32308e0-06cc-1400-84c1-000688ce0fbf:2
+          151: OK    : shape_151                                OID: a324dda0-06cc-1400-84c1-000688ce0fbf:0
+          152: OK    : shape_152                                OID: a324dda0-06cc-1400-84c1-000688ce0fbf:1
+          153: OK    : shape_153                                OID: a324dda0-06cc-1400-84c1-000688ce0fbf:2
+          154: OK    : shape_154                                OID: a324dda0-06cc-1400-84c1-000688ce0fbf:3
+          155: OK    : shape_155                                OID: a324dda0-06cc-1400-84c1-000688ce0fbf:4
+          156: OK    : shape_156                                OID: a3256270-06cc-1400-84c1-000688ce0fbf:0
+          157: OK    : shape_157                                OID: a3256270-06cc-1400-84c1-000688ce0fbf:1
+          158: OK    : shape_158                                OID: a3256270-06cc-1400-84c1-000688ce0fbf:2
+          159: OK    : shape_159                                OID: a3279cc0-06cc-1400-84c1-000688ce0fbf:0
+          160: OK    : shape_160                                OID: a3279cc0-06cc-1400-84c1-000688ce0fbf:1
+          161: OK    : shape_161                                OID: a3279cc0-06cc-1400-84c1-000688ce0fbf:2
+          162: OK    : shape_162                                OID: a329cb58-06cc-1400-84c1-000688ce0fbf:0
+          163: OK    : shape_163                                OID: a329cb58-06cc-1400-84c1-000688ce0fbf:1
+          164: OK    : shape_164                                OID: a329cb58-06cc-1400-84c1-000688ce0fbf:2
+          165: OK    : shape_165                                OID: a32bde98-06cc-1400-84c1-000688ce0fbf:0
+          166: OK    : shape_166                                OID: a32bde98-06cc-1400-84c1-000688ce0fbf:1
+          167: OK    : shape_167                                OID: a32bde98-06cc-1400-84c1-000688ce0fbf:2
+          168: OK    : shape_168                                OID: a32bde98-06cc-1400-84c1-000688ce0fbf:3
+          169: OK    : shape_169                                OID: a32bde98-06cc-1400-84c1-000688ce0fbf:4
+          170: OK    : shape_170                                OID: a32c6368-06cc-1400-84c1-000688ce0fbf:0
+          171: OK    : shape_171                                OID: a32c6368-06cc-1400-84c1-000688ce0fbf:1
+          172: OK    : shape_172                                OID: a32c6368-06cc-1400-84c1-000688ce0fbf:2
+          173: OK    : shape_173                                OID: a32e99d0-06cc-1400-84c1-000688ce0fbf:0
+          174: OK    : shape_174                                OID: a32e99d0-06cc-1400-84c1-000688ce0fbf:1
+          175: OK    : shape_175                                OID: a32e99d0-06cc-1400-84c1-000688ce0fbf:2
+          176: OK    : shape_176                                OID: a3310300-06cc-1400-84c1-000688ce0fbf:0
+          177: OK    : shape_177                                OID: a3310300-06cc-1400-84c1-000688ce0fbf:1
+          178: OK    : shape_178                                OID: a3310300-06cc-1400-84c1-000688ce0fbf:2
+          179: OK    : shape_179                                OID: a3334520-06cc-1400-84c1-000688ce0fbf:0
+          180: OK    : shape_180                                OID: a3334520-06cc-1400-84c1-000688ce0fbf:1
+          181: OK    : shape_181                                OID: a3334520-06cc-1400-84c1-000688ce0fbf:2
+          182: OK    : shape_182                                OID: a334faa0-06cc-1400-84c1-000688ce0fbf:0
+          183: OK    : shape_183                                OID: a334faa0-06cc-1400-84c1-000688ce0fbf:1
+          184: OK    : shape_184                                OID: a334faa0-06cc-1400-84c1-000688ce0fbf:2
+          185: OK    : shape_185                                OID: a334faa0-06cc-1400-84c1-000688ce0fbf:3
+          186: OK    : shape_186                                OID: a334faa0-06cc-1400-84c1-000688ce0fbf:4
+          187: OK    : shape_187                                OID: a3357f70-06cc-1400-84c1-000688ce0fbf:0
+          188: OK    : shape_188                                OID: a3357f70-06cc-1400-84c1-000688ce0fbf:1
+          189: OK    : shape_189                                OID: a3357f70-06cc-1400-84c1-000688ce0fbf:2
+          190: OK    : shape_190                                OID: a337b5d8-06cc-1400-84c1-000688ce0fbf:0
+          191: OK    : shape_191                                OID: a337b5d8-06cc-1400-84c1-000688ce0fbf:1
+          192: OK    : shape_192                                OID: a337b5d8-06cc-1400-84c1-000688ce0fbf:2
+          193: OK    : shape_193                                OID: a4238cd8-06cc-1400-84c1-000688ce0fbf:0
+          194: OK    : shape_194                                OID: a4238cd8-06cc-1400-84c1-000688ce0fbf:1
+          195: OK    : shape_195                                OID: a4240dc0-06cc-1400-84c1-000688ce0fbf:0
+          196: OK    : shape_196                                OID: a4240dc0-06cc-1400-84c1-000688ce0fbf:1
+          197: OK    : shape_197                                OID: a4240dc0-06cc-1400-84c1-000688ce0fbf:2
+          198: OK    : shape_198                                OID: a4254258-06cc-1400-84c1-000688ce0fbf:0
+          199: OK    : shape_199                                OID: a4254258-06cc-1400-84c1-000688ce0fbf:1
+          200: OK    : shape_200                                OID: a425c340-06cc-1400-84c1-000688ce0fbf:0
+          201: OK    : shape_201                                OID: a425c340-06cc-1400-84c1-000688ce0fbf:1
+          202: OK    : shape_202                                OID: a425c340-06cc-1400-84c1-000688ce0fbf:2
+          203: OK    : shape_203                                OID: a426ec20-06cc-1400-84c1-000688ce0fbf:0
+          204: OK    : shape_204                                OID: a426ec20-06cc-1400-84c1-000688ce0fbf:1
+          205: OK    : shape_205                                OID: a426ec20-06cc-1400-84c1-000688ce0fbf:2
+          206: OK    : shape_206                                OID: a5264f08-06cc-1400-84c1-000688ce0fbf:0
+          207: OK    : shape_207                                OID: a5264f08-06cc-1400-84c1-000688ce0fbf:1
+          208: OK    : shape_208                                OID: a5264f08-06cc-1400-84c1-000688ce0fbf:2
+          209: OK    : shape_209                                OID: a5264f08-06cc-1400-84c1-000688ce0fbf:3
+          210: OK    : shape_210                                OID: a5278788-06cc-1400-84c1-000688ce0fbf:0
+          211: OK    : shape_211                                OID: a5278788-06cc-1400-84c1-000688ce0fbf:1
+          212: OK    : shape_212                                OID: a5278788-06cc-1400-84c1-000688ce0fbf:2
+          213: OK    : shape_213                                OID: a5295c48-06cc-1400-84c1-000688ce0fbf:0
+          214: OK    : shape_214                                OID: a5295c48-06cc-1400-84c1-000688ce0fbf:1
+          215: OK    : shape_215                                OID: a5295c48-06cc-1400-84c1-000688ce0fbf:2
+          216: OK    : shape_216                                OID: a629ccb8-06cc-1400-84c1-000688ce0fbf:0
+          217: OK    : shape_217                                OID: a629ccb8-06cc-1400-84c1-000688ce0fbf:1
+          218: OK    : shape_218                                OID: a629ccb8-06cc-1400-84c1-000688ce0fbf:2
+          219: OK    : shape_219                                OID: a62b6ac8-06cc-1400-84c1-000688ce0fbf:0
+          220: OK    : shape_220                                OID: a62b6ac8-06cc-1400-84c1-000688ce0fbf:1
+          221: OK    : shape_221                                OID: a62b6ac8-06cc-1400-84c1-000688ce0fbf:2
+          222: OK    : shape_222                                OID: a62db4b8-06cc-1400-84c1-000688ce0fbf:0
+          223: OK    : shape_223                                OID: a62db4b8-06cc-1400-84c1-000688ce0fbf:1
+          224: OK    : shape_224                                OID: a62db4b8-06cc-1400-84c1-000688ce0fbf:2
+          225: OK    : shape_225                                OID: a62f6e20-06cc-1400-84c1-000688ce0fbf:0
+          226: OK    : shape_226                                OID: a62f6e20-06cc-1400-84c1-000688ce0fbf:1
+          227: OK    : shape_227                                OID: a62ff2f0-06cc-1400-84c1-000688ce0fbf:0
+          228: OK    : shape_228                                OID: a62ff2f0-06cc-1400-84c1-000688ce0fbf:1
+          229: OK    : shape_229                                OID: a62ff2f0-06cc-1400-84c1-000688ce0fbf:2
+          230: OK    : shape_230                                OID: a72f8c88-06cc-1400-84c1-000688ce0fbf:0
+          231: OK    : shape_231                                OID: a72f8c88-06cc-1400-84c1-000688ce0fbf:1
+          232: OK    : shape_232                                OID: a72f8c88-06cc-1400-84c1-000688ce0fbf:2
+          233: OK    : shape_233                                OID: a730bd38-06cc-1400-84c1-000688ce0fbf:0
+          234: OK    : shape_234                                OID: a730bd38-06cc-1400-84c1-000688ce0fbf:1
+          235: OK    : shape_235                                OID: a730bd38-06cc-1400-84c1-000688ce0fbf:2
+          236: OK    : shape_236                                OID: a731de48-06cc-1400-84c1-000688ce0fbf:0
+          237: OK    : shape_237                                OID: a731de48-06cc-1400-84c1-000688ce0fbf:1
+          238: OK    : shape_238                                OID: a731de48-06cc-1400-84c1-000688ce0fbf:2
+          239: OK    : shape_239                                OID: a73316c8-06cc-1400-84c1-000688ce0fbf:0
+          240: OK    : shape_240                                OID: a73316c8-06cc-1400-84c1-000688ce0fbf:1
+          241: OK    : shape_241                                OID: a73316c8-06cc-1400-84c1-000688ce0fbf:2
+          242: OK    : shape_242                                OID: a7338810-06cc-1400-84c1-000688ce0fbf:0
+          243: OK    : shape_243                                OID: a7338810-06cc-1400-84c1-000688ce0fbf:1
+          244: OK    : shape_244                                OID: a7338810-06cc-1400-84c1-000688ce0fbf:2
+          245: OK    : shape_245                                OID: a7351680-06cc-1400-84c1-000688ce0fbf:0
+          246: OK    : shape_246                                OID: a7351680-06cc-1400-84c1-000688ce0fbf:1
+          247: OK    : shape_247                                OID: a7351680-06cc-1400-84c1-000688ce0fbf:2
+          248: OK    : shape_248                                OID: a7351680-06cc-1400-84c1-000688ce0fbf:3
+          249: OK    : shape_249                                OID: a7351680-06cc-1400-84c1-000688ce0fbf:4
+          250: OK    : shape_250                                OID: a7358bb0-06cc-1400-84c1-000688ce0fbf:0
+          251: OK    : shape_251                                OID: a7358bb0-06cc-1400-84c1-000688ce0fbf:1
+          252: OK    : shape_252                                OID: a7358bb0-06cc-1400-84c1-000688ce0fbf:2
+          253: OK    : shape_253                                OID: a736c430-06cc-1400-84c1-000688ce0fbf:0
+          254: OK    : shape_254                                OID: a736c430-06cc-1400-84c1-000688ce0fbf:1
+          255: OK    : shape_255                                OID: a736c430-06cc-1400-84c1-000688ce0fbf:2
+          256: OK    : shape_256                                OID: a736c430-06cc-1400-84c1-000688ce0fbf:3
+          257: OK    : shape_257                                OID: a7373578-06cc-1400-84c1-000688ce0fbf:0
+          258: OK    : shape_258                                OID: a7373578-06cc-1400-84c1-000688ce0fbf:1
+          259: OK    : shape_259                                OID: a7373578-06cc-1400-84c1-000688ce0fbf:2
+          260: OK    : shape_260                                OID: a7385688-06cc-1400-84c1-000688ce0fbf:0
+          261: OK    : shape_261                                OID: a7385688-06cc-1400-84c1-000688ce0fbf:1
+          262: OK    : shape_262                                OID: a7385688-06cc-1400-84c1-000688ce0fbf:2
+          263: OK    : shape_263                                OID: a820b2e8-06cc-1400-84c1-000688ce0fbf:0
+          264: OK    : shape_264                                OID: a821dbc8-06cc-1400-84c1-000688ce0fbf:0
+          265: OK    : shape_265                                OID: a8240290-06cc-1400-84c1-000688ce0fbf:0
+          266: OK    : shape_266                                OID: a824f4c0-06cc-1400-84c1-000688ce0fbf:0
+          267: OK    : shape_267                                OID: a82663f0-06cc-1400-84c1-000688ce0fbf:0
+          268: OK    : shape_268                                OID: a827d708-06cc-1400-84c1-000688ce0fbf:0
+          269: OK    : shape_269                                OID: a8294638-06cc-1400-84c1-000688ce0fbf:0
+          270: OK    : shape_270                                OID: a82ab568-06cc-1400-84c1-000688ce0fbf:0
+          271: OK    : shape_271                                OID: a82c1cc8-06cc-1400-84c1-000688ce0fbf:0
+          272: OK    : shape_272                                OID: a82d8bf8-06cc-1400-84c1-000688ce0fbf:0
+          273: OK    : shape_273                                OID: a82e85f8-06cc-1400-84c1-000688ce0fbf:0
+          274: OK    : shape_274                                OID: a82efb28-06cc-1400-84c1-000688ce0fbf:0
+          275: OK    : shape_275                                OID: a922e490-06cc-1400-84c1-000688ce0fbf:0
+          276: OK    : shape_276                                OID: a922e490-06cc-1400-84c1-000688ce0fbf:1
+          277: OK    : shape_277                                OID: a922e490-06cc-1400-84c1-000688ce0fbf:2
+          278: OK    : shape_278                                OID: a9241158-06cc-1400-84c1-000688ce0fbf:0
+          279: OK    : shape_279                                OID: a9241158-06cc-1400-84c1-000688ce0fbf:1
+          280: OK    : shape_280                                OID: a9241158-06cc-1400-84c1-000688ce0fbf:2
+          281: OK    : shape_281                                OID: a9253e20-06cc-1400-84c1-000688ce0fbf:0
+          282: OK    : shape_282                                OID: a9253e20-06cc-1400-84c1-000688ce0fbf:1
+          283: OK    : shape_283                                OID: a9253e20-06cc-1400-84c1-000688ce0fbf:2
+          284: OK    : shape_284                                OID: a9270ef8-06cc-1400-84c1-000688ce0fbf:0
+          285: OK    : shape_285                                OID: a9270ef8-06cc-1400-84c1-000688ce0fbf:1
+          286: OK    : shape_286                                OID: a9270ef8-06cc-1400-84c1-000688ce0fbf:2
+          287: OK    : shape_287                                OID: a928c090-06cc-1400-84c1-000688ce0fbf:0
+          288: OK    : shape_288                                OID: a928c090-06cc-1400-84c1-000688ce0fbf:1
+          289: OK    : shape_289                                OID: a928c090-06cc-1400-84c1-000688ce0fbf:2
+          290: OK    : shape_290                                OID: a929f140-06cc-1400-84c1-000688ce0fbf:0
+          291: OK    : shape_291                                OID: a929f140-06cc-1400-84c1-000688ce0fbf:1
+          292: OK    : shape_292                                OID: a929f140-06cc-1400-84c1-000688ce0fbf:2
+          293: OK    : shape_293                                OID: a92cdf40-06cc-1400-84c1-000688ce0fbf:0
+          294: OK    : shape_294                                OID: a92cdf40-06cc-1400-84c1-000688ce0fbf:1
+          295: OK    : shape_295                                OID: a92cdf40-06cc-1400-84c1-000688ce0fbf:2
+          296: OK    : shape_296                                OID: a92cdf40-06cc-1400-84c1-000688ce0fbf:3
+          297: OK    : shape_297                                OID: a92f0608-06cc-1400-84c1-000688ce0fbf:0
+          298: OK    : shape_298                                OID: a92f0608-06cc-1400-84c1-000688ce0fbf:1
+          299: OK    : shape_299                                OID: a92f0608-06cc-1400-84c1-000688ce0fbf:2
+          300: OK    : shape_300                                OID: a93036b8-06cc-1400-84c1-000688ce0fbf:0
+          301: OK    : shape_301                                OID: a93036b8-06cc-1400-84c1-000688ce0fbf:1
+          302: OK    : shape_302                                OID: a93036b8-06cc-1400-84c1-000688ce0fbf:2
+          303: OK    : shape_303                                OID: a93036b8-06cc-1400-84c1-000688ce0fbf:3
+          304: OK    : shape_304                                OID: a93036b8-06cc-1400-84c1-000688ce0fbf:4
+          305: OK    : shape_305                                OID: a930a418-06cc-1400-84c1-000688ce0fbf:0
+          306: OK    : shape_306                                OID: a930a418-06cc-1400-84c1-000688ce0fbf:1
+          307: OK    : shape_307                                OID: a930a418-06cc-1400-84c1-000688ce0fbf:2
+          308: OK    : shape_308                                OID: a9325d80-06cc-1400-84c1-000688ce0fbf:0
+          309: OK    : shape_309                                OID: a9325d80-06cc-1400-84c1-000688ce0fbf:1
+          310: OK    : shape_310                                OID: a9325d80-06cc-1400-84c1-000688ce0fbf:2
+          311: OK    : shape_311                                OID: a933a1b8-06cc-1400-84c1-000688ce0fbf:0
+          312: OK    : shape_312                                OID: a933a1b8-06cc-1400-84c1-000688ce0fbf:1
+          313: OK    : shape_313                                OID: a933a1b8-06cc-1400-84c1-000688ce0fbf:2
+          314: OK    : shape_314                                OID: a933a1b8-06cc-1400-84c1-000688ce0fbf:3
+          315: OK    : shape_315                                OID: a933a1b8-06cc-1400-84c1-000688ce0fbf:4
+          316: OK    : shape_316                                OID: a93422a0-06cc-1400-84c1-000688ce0fbf:0
+          317: OK    : shape_317                                OID: a93422a0-06cc-1400-84c1-000688ce0fbf:1
+          318: OK    : shape_318                                OID: a93422a0-06cc-1400-84c1-000688ce0fbf:2
+          319: OK    : shape_319                                OID: a935d820-06cc-1400-84c1-000688ce0fbf:0
+          320: OK    : shape_320                                OID: a935d820-06cc-1400-84c1-000688ce0fbf:1
+          321: OK    : shape_321                                OID: a935d820-06cc-1400-84c1-000688ce0fbf:2
+          322: OK    : shape_322                                OID: a937d008-06cc-1400-84c1-000688ce0fbf:0
+          323: OK    : shape_323                                OID: a937d008-06cc-1400-84c1-000688ce0fbf:1
+          324: OK    : shape_324                                OID: a937d008-06cc-1400-84c1-000688ce0fbf:2
+          325: OK    : shape_325                                OID: a9398970-06cc-1400-84c1-000688ce0fbf:0
+          326: OK    : shape_326                                OID: a9398970-06cc-1400-84c1-000688ce0fbf:1
+          327: OK    : shape_327                                OID: a9398970-06cc-1400-84c1-000688ce0fbf:2
+          328: OK    : shape_328                                OID: a93ac5d8-06cc-1400-84c1-000688ce0fbf:0
+          329: OK    : shape_329                                OID: a93ac5d8-06cc-1400-84c1-000688ce0fbf:1
+          330: OK    : shape_330                                OID: a93b3b08-06cc-1400-84c1-000688ce0fbf:0
+          331: OK    : shape_331                                OID: a93b3b08-06cc-1400-84c1-000688ce0fbf:1
+          332: OK    : shape_332                                OID: a93b3b08-06cc-1400-84c1-000688ce0fbf:2
+          333: OK    : shape_333                                OID: a93d0be0-06cc-1400-84c1-000688ce0fbf:0
+          334: OK    : shape_334                                OID: a93d0be0-06cc-1400-84c1-000688ce0fbf:1
+          335: OK    : shape_335                                OID: a93d0be0-06cc-1400-84c1-000688ce0fbf:2
+          336: OK    : shape_336                                OID: a93eadd8-06cc-1400-84c1-000688ce0fbf:0
+          337: OK    : shape_337                                OID: a93eadd8-06cc-1400-84c1-000688ce0fbf:1
+          338: OK    : shape_338                                OID: a93eadd8-06cc-1400-84c1-000688ce0fbf:2
+          339: OK    : shape_339                                OID: a9405f70-06cc-1400-84c1-000688ce0fbf:0
+          340: OK    : shape_340                                OID: a9405f70-06cc-1400-84c1-000688ce0fbf:1
+          341: OK    : shape_341                                OID: a9405f70-06cc-1400-84c1-000688ce0fbf:2
+          342: OK    : shape_342                                OID: a9420550-06cc-1400-84c1-000688ce0fbf:0
+          343: OK    : shape_343                                OID: a9420550-06cc-1400-84c1-000688ce0fbf:1
+          344: OK    : shape_344                                OID: a9420550-06cc-1400-84c1-000688ce0fbf:2
+          345: OK    : shape_345                                OID: aa19cf80-06cc-1400-84c1-000688ce0fbf:0
+          346: OK    : shape_346                                OID: aa19cf80-06cc-1400-84c1-000688ce0fbf:1
+          347: OK    : shape_347                                OID: aa19cf80-06cc-1400-84c1-000688ce0fbf:2
+          348: OK    : shape_348                                OID: aa19cf80-06cc-1400-84c1-000688ce0fbf:3
+          349: OK    : shape_349                                OID: aa1a7f48-06cc-1400-84c1-000688ce0fbf:0
+          350: OK    : shape_350                                OID: aa1a7f48-06cc-1400-84c1-000688ce0fbf:1
+          351: OK    : shape_351                                OID: aa1a7f48-06cc-1400-84c1-000688ce0fbf:2
+          352: OK    : shape_352                                OID: aa1a7f48-06cc-1400-84c1-000688ce0fbf:3
+          353: OK    : shape_353                                OID: aa1b9c70-06cc-1400-84c1-000688ce0fbf:0
+          354: OK    : shape_354                                OID: aa1b9c70-06cc-1400-84c1-000688ce0fbf:1
+          355: OK    : shape_355                                OID: aa1b9c70-06cc-1400-84c1-000688ce0fbf:2
+          356: OK    : shape_356                                OID: aa1d26f8-06cc-1400-84c1-000688ce0fbf:0
+          357: OK    : shape_357                                OID: aa1d26f8-06cc-1400-84c1-000688ce0fbf:1
+          358: OK    : shape_358                                OID: aa1da010-06cc-1400-84c1-000688ce0fbf:0
+          359: OK    : shape_359                                OID: aa1da010-06cc-1400-84c1-000688ce0fbf:1
+          360: OK    : shape_360                                OID: aa1da010-06cc-1400-84c1-000688ce0fbf:2
+          361: OK    : shape_361                                OID: aa1ec120-06cc-1400-84c1-000688ce0fbf:0
+          362: OK    : shape_362                                OID: aa1ec120-06cc-1400-84c1-000688ce0fbf:1
+          363: OK    : shape_363                                OID: aa1ec120-06cc-1400-84c1-000688ce0fbf:2
+          364: OK    : shape_364                                OID: aa206318-06cc-1400-84c1-000688ce0fbf:0
+          365: OK    : shape_365                                OID: aa206318-06cc-1400-84c1-000688ce0fbf:1
+          366: OK    : shape_366                                OID: aa206318-06cc-1400-84c1-000688ce0fbf:2
+          367: OK    : shape_367                                OID: ab1d5118-06cc-1400-84c1-000688ce0fbf:0
+          368: OK    : shape_368                                OID: ab1d5118-06cc-1400-84c1-000688ce0fbf:1
+          369: OK    : shape_369                                OID: ab1d5118-06cc-1400-84c1-000688ce0fbf:2
+          370: OK    : shape_370                                OID: ab1d5118-06cc-1400-84c1-000688ce0fbf:3
+          371: OK    : shape_371                                OID: ab1e8998-06cc-1400-84c1-000688ce0fbf:0
+          372: OK    : shape_372                                OID: ab1e8998-06cc-1400-84c1-000688ce0fbf:1
+          373: OK    : shape_373                                OID: ab1e8998-06cc-1400-84c1-000688ce0fbf:2
+          374: OK    : shape_374                                OID: ab203f18-06cc-1400-84c1-000688ce0fbf:0
+          375: OK    : shape_375                                OID: ab203f18-06cc-1400-84c1-000688ce0fbf:1
+          376: OK    : shape_376                                OID: ab203f18-06cc-1400-84c1-000688ce0fbf:2
+          377: OK    : shape_377                                OID: ab217b80-06cc-1400-84c1-000688ce0fbf:0
+          378: OK    : shape_378                                OID: ab217b80-06cc-1400-84c1-000688ce0fbf:1
+          379: OK    : shape_379                                OID: ab217b80-06cc-1400-84c1-000688ce0fbf:2
+          380: OK    : shape_380                                OID: ab217b80-06cc-1400-84c1-000688ce0fbf:3
+          381: OK    : shape_381                                OID: ab21f0b0-06cc-1400-84c1-000688ce0fbf:0
+          382: OK    : shape_382                                OID: ab21f0b0-06cc-1400-84c1-000688ce0fbf:1
+          383: OK    : shape_383                                OID: ab21f0b0-06cc-1400-84c1-000688ce0fbf:2
+          384: OK    : shape_384                                OID: ab2311c0-06cc-1400-84c1-000688ce0fbf:0
+          385: OK    : shape_385                                OID: ab2311c0-06cc-1400-84c1-000688ce0fbf:1
+          386: OK    : shape_386                                OID: ab2311c0-06cc-1400-84c1-000688ce0fbf:2
+          387: OK    : shape_387                                OID: ab244e28-06cc-1400-84c1-000688ce0fbf:0
+          388: OK    : shape_388                                OID: ab244e28-06cc-1400-84c1-000688ce0fbf:1
+          389: OK    : shape_389                                OID: ab244e28-06cc-1400-84c1-000688ce0fbf:2
+          390: OK    : shape_390                                OID: ab244e28-06cc-1400-84c1-000688ce0fbf:3
+          391: OK    : shape_391                                OID: ab24c358-06cc-1400-84c1-000688ce0fbf:0
+          392: OK    : shape_392                                OID: ab24c358-06cc-1400-84c1-000688ce0fbf:1
+          393: OK    : shape_393                                OID: ab24c358-06cc-1400-84c1-000688ce0fbf:2
+          394: OK    : shape_394                                OID: ab25f7f0-06cc-1400-84c1-000688ce0fbf:0
+          395: OK    : shape_395                                OID: ab25f7f0-06cc-1400-84c1-000688ce0fbf:1
+          396: OK    : shape_396                                OID: ab25f7f0-06cc-1400-84c1-000688ce0fbf:2
+          397: OK    : shape_397                                OID: ab25f7f0-06cc-1400-84c1-000688ce0fbf:3
+          398: OK    : shape_398                                OID: ab25f7f0-06cc-1400-84c1-000688ce0fbf:4
+          399: OK    : shape_399                                OID: ab266938-06cc-1400-84c1-000688ce0fbf:0
+          400: OK    : shape_400                                OID: ab266938-06cc-1400-84c1-000688ce0fbf:1
+          401: OK    : shape_401                                OID: ab266938-06cc-1400-84c1-000688ce0fbf:2
+          402: OK    : shape_402                                OID: ab286120-06cc-1400-84c1-000688ce0fbf:0
+          403: OK    : shape_403                                OID: ab286120-06cc-1400-84c1-000688ce0fbf:1
+          404: OK    : shape_404                                OID: ab286120-06cc-1400-84c1-000688ce0fbf:2
+          405: OK    : shape_405                                OID: ab29ad28-06cc-1400-84c1-000688ce0fbf:0
+          406: OK    : shape_406                                OID: ab29ad28-06cc-1400-84c1-000688ce0fbf:1
+          407: OK    : shape_407                                OID: ab29ad28-06cc-1400-84c1-000688ce0fbf:2
+          408: OK    : shape_408                                OID: ab29ad28-06cc-1400-84c1-000688ce0fbf:3
+          409: OK    : shape_409                                OID: ab2a35e0-06cc-1400-84c1-000688ce0fbf:0
+          410: OK    : shape_410                                OID: ab2a35e0-06cc-1400-84c1-000688ce0fbf:1
+          411: OK    : shape_411                                OID: ab2a35e0-06cc-1400-84c1-000688ce0fbf:2
+          412: OK    : shape_412                                OID: ac119458-06cc-1400-84c1-000688ce0fbf:0
+          413: OK    : shape_413                                OID: ac119458-06cc-1400-84c1-000688ce0fbf:1
+          414: OK    : shape_414                                OID: ac124038-06cc-1400-84c1-000688ce0fbf:0
+          415: OK    : shape_415                                OID: ac124038-06cc-1400-84c1-000688ce0fbf:1
+          416: OK    : shape_416                                OID: ac124038-06cc-1400-84c1-000688ce0fbf:2
+          417: OK    : shape_417                                OID: ac124038-06cc-1400-84c1-000688ce0fbf:3
+          418: OK    : shape_418                                OID: ac12b950-06cc-1400-84c1-000688ce0fbf:0
+          419: OK    : shape_419                                OID: ac12b950-06cc-1400-84c1-000688ce0fbf:1
+          420: OK    : shape_420                                OID: ac12b950-06cc-1400-84c1-000688ce0fbf:2
+          421: OK    : shape_421                                OID: ac13bf08-06cc-1400-84c1-000688ce0fbf:0
+          422: OK    : shape_422                                OID: ac13bf08-06cc-1400-84c1-000688ce0fbf:1
+          423: OK    : shape_423                                OID: ac143438-06cc-1400-84c1-000688ce0fbf:0
+          424: OK    : shape_424                                OID: ac143438-06cc-1400-84c1-000688ce0fbf:1
+          425: OK    : shape_425                                OID: ac143438-06cc-1400-84c1-000688ce0fbf:2
+          426: OK    : shape_426                                OID: ac1539f0-06cc-1400-84c1-000688ce0fbf:0
+          427: OK    : shape_427                                OID: ac1539f0-06cc-1400-84c1-000688ce0fbf:1
+          428: OK    : shape_428                                OID: ac15af20-06cc-1400-84c1-000688ce0fbf:0
+          429: OK    : shape_429                                OID: ac15af20-06cc-1400-84c1-000688ce0fbf:1
+          430: OK    : shape_430                                OID: ac15af20-06cc-1400-84c1-000688ce0fbf:2
+          431: OK    : shape_431                                OID: ac1689e0-06cc-1400-84c1-000688ce0fbf:0
+          432: OK    : shape_432                                OID: ac1689e0-06cc-1400-84c1-000688ce0fbf:1
+          433: OK    : shape_433                                OID: ac1689e0-06cc-1400-84c1-000688ce0fbf:2
+          434: OK    : shape_434                                OID: ad14d770-06cc-1400-84c1-000688ce0fbf:0
+          435: OK    : shape_435                                OID: ad14d770-06cc-1400-84c1-000688ce0fbf:1
+          436: OK    : shape_436                                OID: ad14d770-06cc-1400-84c1-000688ce0fbf:2
+          437: OK    : shape_437                                OID: ad162378-06cc-1400-84c1-000688ce0fbf:0
+          438: OK    : shape_438                                OID: ad162378-06cc-1400-84c1-000688ce0fbf:1
+          439: OK    : shape_439                                OID: ad162378-06cc-1400-84c1-000688ce0fbf:2
+          440: OK    : shape_440                                OID: ad17b5d0-06cc-1400-84c1-000688ce0fbf:0
+          441: OK    : shape_441                                OID: ad17b5d0-06cc-1400-84c1-000688ce0fbf:1
+          442: OK    : shape_442                                OID: ad17b5d0-06cc-1400-84c1-000688ce0fbf:2
+          443: OK    : shape_443                                OID: ae199958-06cc-1400-84c1-000688ce0fbf:0
+          444: OK    : shape_444                                OID: ae199958-06cc-1400-84c1-000688ce0fbf:1
+          445: OK    : shape_445                                OID: ae199958-06cc-1400-84c1-000688ce0fbf:2
+          446: OK    : shape_446                                OID: ae1b0888-06cc-1400-84c1-000688ce0fbf:0
+          447: OK    : shape_447                                OID: ae1b0888-06cc-1400-84c1-000688ce0fbf:1
+          448: OK    : shape_448                                OID: ae1b0888-06cc-1400-84c1-000688ce0fbf:2
+          449: OK    : shape_449                                OID: ae1c77b8-06cc-1400-84c1-000688ce0fbf:0
+          450: OK    : shape_450                                OID: ae1c77b8-06cc-1400-84c1-000688ce0fbf:1
+          451: OK    : shape_451                                OID: ae1c77b8-06cc-1400-84c1-000688ce0fbf:2
+          452: OK    : shape_452                                OID: ae1de300-06cc-1400-84c1-000688ce0fbf:0
+          453: OK    : shape_453                                OID: ae1de300-06cc-1400-84c1-000688ce0fbf:1
+          454: OK    : shape_454                                OID: ae1de300-06cc-1400-84c1-000688ce0fbf:2
+          455: OK    : shape_455                                OID: ae1f4e48-06cc-1400-84c1-000688ce0fbf:0
+          456: OK    : shape_456                                OID: ae1f4e48-06cc-1400-84c1-000688ce0fbf:1
+          457: OK    : shape_457                                OID: ae1f4e48-06cc-1400-84c1-000688ce0fbf:2
+          458: OK    : shape_458                                OID: ae20b990-06cc-1400-84c1-000688ce0fbf:0
+          459: OK    : shape_459                                OID: ae20b990-06cc-1400-84c1-000688ce0fbf:1
+          460: OK    : shape_460                                OID: ae20b990-06cc-1400-84c1-000688ce0fbf:2
+          461: OK    : shape_461                                OID: ae21c330-06cc-1400-84c1-000688ce0fbf:0
+          462: OK    : shape_462                                OID: ae21c330-06cc-1400-84c1-000688ce0fbf:1
+          463: OK    : shape_463                                OID: ae21c330-06cc-1400-84c1-000688ce0fbf:2
+          464: OK    : shape_464                                OID: ae21c330-06cc-1400-84c1-000688ce0fbf:3
+          465: OK    : shape_465                                OID: ae21c330-06cc-1400-84c1-000688ce0fbf:4
+          466: OK    : shape_466                                OID: ae2228c0-06cc-1400-84c1-000688ce0fbf:0
+          467: OK    : shape_467                                OID: ae2228c0-06cc-1400-84c1-000688ce0fbf:1
+          468: OK    : shape_468                                OID: ae2228c0-06cc-1400-84c1-000688ce0fbf:2
+          469: OK    : shape_469                                OID: ae2397f0-06cc-1400-84c1-000688ce0fbf:0
+          470: OK    : shape_470                                OID: ae2397f0-06cc-1400-84c1-000688ce0fbf:1
+          471: OK    : shape_471                                OID: ae2397f0-06cc-1400-84c1-000688ce0fbf:2
+          472: OK    : shape_472                                OID: ae250338-06cc-1400-84c1-000688ce0fbf:0
+          473: OK    : shape_473                                OID: ae250338-06cc-1400-84c1-000688ce0fbf:1
+          474: OK    : shape_474                                OID: ae250338-06cc-1400-84c1-000688ce0fbf:2
+          475: OK    : shape_475                                OID: ae25f950-06cc-1400-84c1-000688ce0fbf:0
+          476: OK    : shape_476                                OID: ae25f950-06cc-1400-84c1-000688ce0fbf:1
+          477: OK    : shape_477                                OID: ae25f950-06cc-1400-84c1-000688ce0fbf:2
+          478: OK    : shape_478                                OID: ae276880-06cc-1400-84c1-000688ce0fbf:0
+          479: OK    : shape_479                                OID: ae276880-06cc-1400-84c1-000688ce0fbf:1
+          480: OK    : shape_480                                OID: ae276880-06cc-1400-84c1-000688ce0fbf:2
+          481: OK    : shape_481                                OID: ae28d3c8-06cc-1400-84c1-000688ce0fbf:0
+          482: OK    : shape_482                                OID: ae28d3c8-06cc-1400-84c1-000688ce0fbf:1
+          483: OK    : shape_483                                OID: ae28d3c8-06cc-1400-84c1-000688ce0fbf:2
+          484: OK    : shape_484                                OID: ae29dd68-06cc-1400-84c1-000688ce0fbf:0
+          485: OK    : shape_485                                OID: ae29dd68-06cc-1400-84c1-000688ce0fbf:1
+          486: OK    : shape_486                                OID: ae2a3f10-06cc-1400-84c1-000688ce0fbf:0
+          487: OK    : shape_487                                OID: ae2a3f10-06cc-1400-84c1-000688ce0fbf:1
+          488: OK    : shape_488                                OID: ae2a3f10-06cc-1400-84c1-000688ce0fbf:2
+          489: OK    : shape_489                                OID: ae2baa58-06cc-1400-84c1-000688ce0fbf:0
+          490: OK    : shape_490                                OID: ae2baa58-06cc-1400-84c1-000688ce0fbf:1
+          491: OK    : shape_491                                OID: ae2baa58-06cc-1400-84c1-000688ce0fbf:2
+          492: OK    : shape_492                                OID: ae2ccf50-06cc-1400-84c1-000688ce0fbf:0
+          493: OK    : shape_493                                OID: ae2ccf50-06cc-1400-84c1-000688ce0fbf:1
+          494: OK    : shape_494                                OID: ae2d38c8-06cc-1400-84c1-000688ce0fbf:0
+          495: OK    : shape_495                                OID: ae2d38c8-06cc-1400-84c1-000688ce0fbf:1
+          496: OK    : shape_496                                OID: ae2d38c8-06cc-1400-84c1-000688ce0fbf:2
+          497: OK    : shape_497                                OID: ae2ebb80-06cc-1400-84c1-000688ce0fbf:0
+          498: OK    : shape_498                                OID: ae2ebb80-06cc-1400-84c1-000688ce0fbf:1
+          499: OK    : shape_499                                OID: ae2f28e0-06cc-1400-84c1-000688ce0fbf:0
+          500: OK    : shape_500                                OID: ae2f28e0-06cc-1400-84c1-000688ce0fbf:1
+          501: OK    : shape_501                                OID: ae2f28e0-06cc-1400-84c1-000688ce0fbf:2
+          502: OK    : shape_502                                OID: ae302e98-06cc-1400-84c1-000688ce0fbf:0
+          503: OK    : shape_503                                OID: ae302e98-06cc-1400-84c1-000688ce0fbf:1
+          504: OK    : shape_504                                OID: ae309428-06cc-1400-84c1-000688ce0fbf:0
+          505: OK    : shape_505                                OID: ae309428-06cc-1400-84c1-000688ce0fbf:1
+          506: OK    : shape_506                                OID: ae309428-06cc-1400-84c1-000688ce0fbf:2
+          507: OK    : shape_507                                OID: ae31a980-06cc-1400-84c1-000688ce0fbf:0
+          508: OK    : shape_508                                OID: ae31a980-06cc-1400-84c1-000688ce0fbf:1
+          509: OK    : shape_509                                OID: ae3212f8-06cc-1400-84c1-000688ce0fbf:0
+          510: OK    : shape_510                                OID: ae3212f8-06cc-1400-84c1-000688ce0fbf:1
+          511: OK    : shape_511                                OID: ae3212f8-06cc-1400-84c1-000688ce0fbf:2
+          512: OK    : shape_512                                OID: ae331c98-06cc-1400-84c1-000688ce0fbf:0
+          513: OK    : shape_513                                OID: ae331c98-06cc-1400-84c1-000688ce0fbf:1
+          514: OK    : shape_514                                OID: ae331c98-06cc-1400-84c1-000688ce0fbf:2
+          515: OK    : shape_515                                OID: ae331c98-06cc-1400-84c1-000688ce0fbf:3
+          516: OK    : shape_516                                OID: ae338228-06cc-1400-84c1-000688ce0fbf:0
+          517: OK    : shape_517                                OID: ae338228-06cc-1400-84c1-000688ce0fbf:1
+          518: OK    : shape_518                                OID: ae338228-06cc-1400-84c1-000688ce0fbf:2
+          519: OK    : shape_519                                OID: b01019f8-06cc-1400-84c1-000688ce0fbf:0
+          520: OK    : shape_520                                OID: b01019f8-06cc-1400-84c1-000688ce0fbf:1
+          521: OK    : shape_521                                OID: b01019f8-06cc-1400-84c1-000688ce0fbf:2
+          522: OK    : shape_522                                OID: b01019f8-06cc-1400-84c1-000688ce0fbf:3
+          523: OK    : shape_523                                OID: b115c640-06cc-1400-84c1-000688ce0fbf:0
+          524: OK    : shape_524                                OID: b115c640-06cc-1400-84c1-000688ce0fbf:1
+          525: OK    : shape_525                                OID: b115c640-06cc-1400-84c1-000688ce0fbf:2
+          526: OK    : shape_526                                OID: b115c640-06cc-1400-84c1-000688ce0fbf:3
+          527: OK    : shape_527                                OID: b116ef20-06cc-1400-84c1-000688ce0fbf:0
+          528: OK    : shape_528                                OID: b116ef20-06cc-1400-84c1-000688ce0fbf:1
+          529: OK    : shape_529                                OID: b116ef20-06cc-1400-84c1-000688ce0fbf:2
+          530: OK    : shape_530                                OID: b11871d8-06cc-1400-84c1-000688ce0fbf:0
+          531: OK    : shape_531                                OID: b11871d8-06cc-1400-84c1-000688ce0fbf:1
+          532: OK    : shape_532                                OID: b11871d8-06cc-1400-84c1-000688ce0fbf:2
+          533: OK    : shape_533                                OID: b119e108-06cc-1400-84c1-000688ce0fbf:0
+          534: OK    : shape_534                                OID: b119e108-06cc-1400-84c1-000688ce0fbf:1
+          535: OK    : shape_535                                OID: b119e108-06cc-1400-84c1-000688ce0fbf:2
+          536: OK    : shape_536                                OID: b11b5038-06cc-1400-84c1-000688ce0fbf:0
+          537: OK    : shape_537                                OID: b11b5038-06cc-1400-84c1-000688ce0fbf:1
+          538: OK    : shape_538                                OID: b11b5038-06cc-1400-84c1-000688ce0fbf:2
+          539: OK    : shape_539                                OID: b11c4268-06cc-1400-84c1-000688ce0fbf:0
+          540: OK    : shape_540                                OID: b11c4268-06cc-1400-84c1-000688ce0fbf:1
+          541: OK    : shape_541                                OID: b11c4268-06cc-1400-84c1-000688ce0fbf:2
+          542: OK    : shape_542                                OID: b3158610-06cc-1400-84c1-000688ce0fbf:0
+          543: OK    : shape_543                                OID: b3158610-06cc-1400-84c1-000688ce0fbf:1
+          544: OK    : shape_544                                OID: b3158610-06cc-1400-84c1-000688ce0fbf:2
+          545: OK    : shape_545                                OID: b3171480-06cc-1400-84c1-000688ce0fbf:0
+          546: OK    : shape_546                                OID: b3171480-06cc-1400-84c1-000688ce0fbf:1
+          547: OK    : shape_547                                OID: b3171480-06cc-1400-84c1-000688ce0fbf:2
+          548: OK    : shape_548                                OID: b318a2f0-06cc-1400-84c1-000688ce0fbf:0
+          549: OK    : shape_549                                OID: b318a2f0-06cc-1400-84c1-000688ce0fbf:1
+          550: OK    : shape_550                                OID: b318a2f0-06cc-1400-84c1-000688ce0fbf:2
+          551: OK    : shape_551                                OID: b319c400-06cc-1400-84c1-000688ce0fbf:0
+          552: OK    : shape_552                                OID: b319c400-06cc-1400-84c1-000688ce0fbf:1
+          553: OK    : shape_553                                OID: b319c400-06cc-1400-84c1-000688ce0fbf:2
+          554: OK    : shape_554                                OID: b319c400-06cc-1400-84c1-000688ce0fbf:3
+          555: OK    : shape_555                                OID: b319c400-06cc-1400-84c1-000688ce0fbf:4
+          556: OK    : shape_556                                OID: b31a2d78-06cc-1400-84c1-000688ce0fbf:0
+          557: OK    : shape_557                                OID: b31a2d78-06cc-1400-84c1-000688ce0fbf:1
+          558: OK    : shape_558                                OID: b31a2d78-06cc-1400-84c1-000688ce0fbf:2
+          559: OK    : shape_559                                OID: b31c0620-06cc-1400-84c1-000688ce0fbf:0
+          560: OK    : shape_560                                OID: b31c0620-06cc-1400-84c1-000688ce0fbf:1
+          561: OK    : shape_561                                OID: b31c0620-06cc-1400-84c1-000688ce0fbf:2
+          562: OK    : shape_562                                OID: b31d2730-06cc-1400-84c1-000688ce0fbf:0
+          563: OK    : shape_563                                OID: b31d2730-06cc-1400-84c1-000688ce0fbf:1
+          564: OK    : shape_564                                OID: b31d2730-06cc-1400-84c1-000688ce0fbf:2
+          565: OK    : shape_565                                OID: b31e5010-06cc-1400-84c1-000688ce0fbf:0
+          566: OK    : shape_566                                OID: b31e5010-06cc-1400-84c1-000688ce0fbf:1
+          567: OK    : shape_567                                OID: b31e5010-06cc-1400-84c1-000688ce0fbf:2
+          568: OK    : shape_568                                OID: b31e5010-06cc-1400-84c1-000688ce0fbf:3
+          569: OK    : shape_569                                OID: b31ebd70-06cc-1400-84c1-000688ce0fbf:0
+          570: OK    : shape_570                                OID: b31ebd70-06cc-1400-84c1-000688ce0fbf:1
+          571: OK    : shape_571                                OID: b31ebd70-06cc-1400-84c1-000688ce0fbf:2
+          572: OK    : shape_572                                OID: b32053b0-06cc-1400-84c1-000688ce0fbf:0
+          573: OK    : shape_573                                OID: b32053b0-06cc-1400-84c1-000688ce0fbf:1
+          574: OK    : shape_574                                OID: b32053b0-06cc-1400-84c1-000688ce0fbf:2
+          575: OK    : shape_575                                OID: b321a3a0-06cc-1400-84c1-000688ce0fbf:0
+          576: OK    : shape_576                                OID: b321a3a0-06cc-1400-84c1-000688ce0fbf:1
+          577: OK    : shape_577                                OID: b321a3a0-06cc-1400-84c1-000688ce0fbf:2
+          578: OK    : shape_578                                OID: b321a3a0-06cc-1400-84c1-000688ce0fbf:3
+          579: OK    : shape_579                                OID: b32214e8-06cc-1400-84c1-000688ce0fbf:0
+          580: OK    : shape_580                                OID: b32214e8-06cc-1400-84c1-000688ce0fbf:1
+          581: OK    : shape_581                                OID: b32214e8-06cc-1400-84c1-000688ce0fbf:2
+          582: OK    : shape_582                                OID: b323a740-06cc-1400-84c1-000688ce0fbf:0
+          583: OK    : shape_583                                OID: b323a740-06cc-1400-84c1-000688ce0fbf:1
+          584: OK    : shape_584                                OID: b323a740-06cc-1400-84c1-000688ce0fbf:2
+          585: OK    : shape_585                                OID: b32535b0-06cc-1400-84c1-000688ce0fbf:0
+          586: OK    : shape_586                                OID: b32535b0-06cc-1400-84c1-000688ce0fbf:1
+          587: OK    : shape_587                                OID: b32535b0-06cc-1400-84c1-000688ce0fbf:2
+          588: OK    : shape_588                                OID: b326c808-06cc-1400-84c1-000688ce0fbf:0
+          589: OK    : shape_589                                OID: b326c808-06cc-1400-84c1-000688ce0fbf:1
+          590: OK    : shape_590                                OID: b326c808-06cc-1400-84c1-000688ce0fbf:2
+          591: OK    : shape_591                                OID: b327f0e8-06cc-1400-84c1-000688ce0fbf:0
+          592: OK    : shape_592                                OID: b327f0e8-06cc-1400-84c1-000688ce0fbf:1
+          593: OK    : shape_593                                OID: b327f0e8-06cc-1400-84c1-000688ce0fbf:2
+          594: OK    : shape_594                                OID: b327f0e8-06cc-1400-84c1-000688ce0fbf:3
+          595: OK    : shape_595                                OID: b3285e48-06cc-1400-84c1-000688ce0fbf:0
+          596: OK    : shape_596                                OID: b3285e48-06cc-1400-84c1-000688ce0fbf:1
+          597: OK    : shape_597                                OID: b3285e48-06cc-1400-84c1-000688ce0fbf:2
+          598: OK    : shape_598                                OID: b3297788-06cc-1400-84c1-000688ce0fbf:0
+          599: OK    : shape_599                                OID: b3297788-06cc-1400-84c1-000688ce0fbf:1
+          600: OK    : shape_600                                OID: b3297788-06cc-1400-84c1-000688ce0fbf:2
+          601: OK    : shape_601                                OID: b32a8ce0-06cc-1400-84c1-000688ce0fbf:0
+          602: OK    : shape_602                                OID: b32a8ce0-06cc-1400-84c1-000688ce0fbf:1
+          603: OK    : shape_603                                OID: b32a8ce0-06cc-1400-84c1-000688ce0fbf:2
+          604: OK    : shape_604                                OID: b32c2320-06cc-1400-84c1-000688ce0fbf:0
+          605: OK    : shape_605                                OID: b32c2320-06cc-1400-84c1-000688ce0fbf:1
+          606: OK    : shape_606                                OID: b32c2320-06cc-1400-84c1-000688ce0fbf:2
+          607: OK    : shape_607                                OID: b32d3878-06cc-1400-84c1-000688ce0fbf:0
+          608: OK    : shape_608                                OID: b32d3878-06cc-1400-84c1-000688ce0fbf:1
+          609: OK    : shape_609                                OID: b32d3878-06cc-1400-84c1-000688ce0fbf:2
+          610: OK    : shape_610                                OID: b32e5988-06cc-1400-84c1-000688ce0fbf:0
+          611: OK    : shape_611                                OID: b32e5988-06cc-1400-84c1-000688ce0fbf:1
+          612: OK    : shape_612                                OID: b32e5988-06cc-1400-84c1-000688ce0fbf:2
+          613: OK    : shape_613                                OID: b32e5988-06cc-1400-84c1-000688ce0fbf:3
+          614: OK    : shape_614                                OID: b32e5988-06cc-1400-84c1-000688ce0fbf:4
+          615: OK    : shape_615                                OID: b32ec6e8-06cc-1400-84c1-000688ce0fbf:0
+          616: OK    : shape_616                                OID: b32ec6e8-06cc-1400-84c1-000688ce0fbf:1
+          617: OK    : shape_617                                OID: b32ec6e8-06cc-1400-84c1-000688ce0fbf:2
+          618: OK    : shape_618                                OID: b32febe0-06cc-1400-84c1-000688ce0fbf:0
+          619: OK    : shape_619                                OID: b32febe0-06cc-1400-84c1-000688ce0fbf:1
+          620: OK    : shape_620                                OID: b32febe0-06cc-1400-84c1-000688ce0fbf:2
+          621: OK    : shape_621                                OID: b3305940-06cc-1400-84c1-000688ce0fbf:0
+          622: OK    : shape_622                                OID: b3305940-06cc-1400-84c1-000688ce0fbf:1
+          623: OK    : shape_623                                OID: b3305940-06cc-1400-84c1-000688ce0fbf:2
+          624: OK    : shape_624                                OID: b3349730-06cc-1400-84c1-000688ce0fbf:0
+          625: OK    : shape_625                                OID: b3349730-06cc-1400-84c1-000688ce0fbf:1
+          626: OK    : shape_626                                OID: b3349730-06cc-1400-84c1-000688ce0fbf:2
+          627: OK    : shape_627                                OID: b33625a0-06cc-1400-84c1-000688ce0fbf:0
+          628: OK    : shape_628                                OID: b33625a0-06cc-1400-84c1-000688ce0fbf:1
+          629: OK    : shape_629                                OID: b33625a0-06cc-1400-84c1-000688ce0fbf:2
+          630: OK    : shape_630                                OID: b33625a0-06cc-1400-84c1-000688ce0fbf:3
+          631: OK    : shape_631                                OID: b3369300-06cc-1400-84c1-000688ce0fbf:0
+          632: OK    : shape_632                                OID: b3369300-06cc-1400-84c1-000688ce0fbf:1
+          633: OK    : shape_633                                OID: b3369300-06cc-1400-84c1-000688ce0fbf:2
+          634: OK    : shape_634                                OID: b3382170-06cc-1400-84c1-000688ce0fbf:0
+          635: OK    : shape_635                                OID: b3382170-06cc-1400-84c1-000688ce0fbf:1
+          636: OK    : shape_636                                OID: b3382170-06cc-1400-84c1-000688ce0fbf:2
+          637: OK    : shape_637                                OID: b33936c8-06cc-1400-84c1-000688ce0fbf:0
+          638: OK    : shape_638                                OID: b33936c8-06cc-1400-84c1-000688ce0fbf:1
+          639: OK    : shape_639                                OID: b33936c8-06cc-1400-84c1-000688ce0fbf:2
+          640: OK    : shape_640                                OID: b40d6b00-06cc-1400-84c1-000688ce0fbf:0
+          641: OK    : shape_641                                OID: b40d6b00-06cc-1400-84c1-000688ce0fbf:1
+          642: OK    : shape_642                                OID: b40eca90-06cc-1400-84c1-000688ce0fbf:0
+          643: OK    : shape_643                                OID: b4108bc8-06cc-1400-84c1-000688ce0fbf:0
+          644: OK    : shape_644                                OID: b4119568-06cc-1400-84c1-000688ce0fbf:0
+          645: OK    : shape_645                                OID: b4119568-06cc-1400-84c1-000688ce0fbf:1
+          646: OK    : shape_646                                OID: b4119568-06cc-1400-84c1-000688ce0fbf:2
+          647: OK    : shape_647                                OID: b411fee0-06cc-1400-84c1-000688ce0fbf:0
+          648: OK    : shape_648                                OID: b4136e10-06cc-1400-84c1-000688ce0fbf:0
+          649: OK    : shape_649                                OID: b414dd40-06cc-1400-84c1-000688ce0fbf:0
+          650: OK    : shape_650                                OID: b4164c70-06cc-1400-84c1-000688ce0fbf:0
+          651: OK    : shape_651                                OID: b417b7b8-06cc-1400-84c1-000688ce0fbf:0
+          652: OK    : shape_652                                OID: b4192300-06cc-1400-84c1-000688ce0fbf:0
+          653: OK    : shape_653                                OID: b41a2ca0-06cc-1400-84c1-000688ce0fbf:0
+          654: OK    : shape_654                                OID: b41a2ca0-06cc-1400-84c1-000688ce0fbf:1
+          655: OK    : shape_655                                OID: b41a9230-06cc-1400-84c1-000688ce0fbf:0
+          656: OK    : shape_656                                OID: b5357fe0-06cc-1400-84c1-000688ce0fbf:0
+          657: OK    : shape_657                                OID: b5357fe0-06cc-1400-84c1-000688ce0fbf:1
+          658: OK    : shape_658                                OID: b5357fe0-06cc-1400-84c1-000688ce0fbf:2
+          659: OK    : shape_659                                OID: b53652d0-06cc-1400-84c1-000688ce0fbf:0
+          660: OK    : shape_660                                OID: b53652d0-06cc-1400-84c1-000688ce0fbf:1
+          661: OK    : shape_661                                OID: b53652d0-06cc-1400-84c1-000688ce0fbf:2
+          662: OK    : shape_662                                OID: b60b5228-06cc-1400-84c1-000688ce0fbf:0
+          663: OK    : shape_663                                OID: b60c6f50-06cc-1400-84c1-000688ce0fbf:0
+          664: OK    : shape_664                                OID: b60d9060-06cc-1400-84c1-000688ce0fbf:0
+          665: OK    : shape_665                                OID: b60ea9a0-06cc-1400-84c1-000688ce0fbf:0
+          666: OK    : shape_666                                OID: b60fc6c8-06cc-1400-84c1-000688ce0fbf:0
+          667: OK    : shape_667                                OID: b6166de8-06cc-1400-84c1-000688ce0fbf:0
+          668: OK    : shape_668                                OID: b61711f8-06cc-1400-84c1-000688ce0fbf:0
+          669: OK    : shape_669                                OID: b618d330-06cc-1400-84c1-000688ce0fbf:0
+          670: OK    : shape_670                                OID: b619ec70-06cc-1400-84c1-000688ce0fbf:0
+          671: OK    : shape_671                                OID: b61b0998-06cc-1400-84c1-000688ce0fbf:0
+          672: OK    : shape_672                                OID: b70b60f0-06cc-1400-84c1-000688ce0fbf:0
+          673: OK    : shape_673                                OID: b70b60f0-06cc-1400-84c1-000688ce0fbf:1
+          674: OK    : shape_674                                OID: b70b60f0-06cc-1400-84c1-000688ce0fbf:2
+          675: OK    : shape_675                                OID: b70bd238-06cc-1400-84c1-000688ce0fbf:0
+          676: OK    : shape_676                                OID: b70bd238-06cc-1400-84c1-000688ce0fbf:1
+          677: OK    : shape_677                                OID: b70bd238-06cc-1400-84c1-000688ce0fbf:2
+          678: OK    : shape_678                                OID: b70cb0e0-06cc-1400-84c1-000688ce0fbf:0
+          679: OK    : shape_679                                OID: b70cb0e0-06cc-1400-84c1-000688ce0fbf:1
+          680: OK    : shape_680                                OID: b70cb0e0-06cc-1400-84c1-000688ce0fbf:2
+          681: OK    : shape_681                                OID: b70e08a0-06cc-1400-84c1-000688ce0fbf:0
+          682: OK    : shape_682                                OID: b70e08a0-06cc-1400-84c1-000688ce0fbf:1
+          683: OK    : shape_683                                OID: b70e08a0-06cc-1400-84c1-000688ce0fbf:2
+          684: OK    : shape_684                                OID: b70f5c78-06cc-1400-84c1-000688ce0fbf:0
+          685: OK    : shape_685                                OID: b70f5c78-06cc-1400-84c1-000688ce0fbf:1
+          686: OK    : shape_686                                OID: b70f5c78-06cc-1400-84c1-000688ce0fbf:2
+          687: OK    : shape_687                                OID: b80fbd48-06cc-1400-84c1-000688ce0fbf:0
+          688: OK    : shape_688                                OID: b80fbd48-06cc-1400-84c1-000688ce0fbf:1
+          689: OK    : shape_689                                OID: b8106540-06cc-1400-84c1-000688ce0fbf:0
+          690: OK    : shape_690                                OID: b8106540-06cc-1400-84c1-000688ce0fbf:1
+          691: OK    : shape_691                                OID: b8106540-06cc-1400-84c1-000688ce0fbf:2
+          692: OK    : shape_692                                OID: b811a590-06cc-1400-84c1-000688ce0fbf:0
+          693: OK    : shape_693                                OID: b811a590-06cc-1400-84c1-000688ce0fbf:1
+          694: OK    : shape_694                                OID: b811a590-06cc-1400-84c1-000688ce0fbf:2
+          695: OK    : shape_695                                OID: b9041028-06cc-1400-84c1-000688ce0fbf:0
+          696: OK    : shape_696                                OID: b9041028-06cc-1400-84c1-000688ce0fbf:1
+          697: OK    : shape_697                                OID: b904c7c0-06cc-1400-84c1-000688ce0fbf:0
+          698: OK    : shape_698                                OID: b904c7c0-06cc-1400-84c1-000688ce0fbf:1
+          699: OK    : shape_699                                OID: b904c7c0-06cc-1400-84c1-000688ce0fbf:2
+          700: OK    : shape_700                                OID: b905a280-06cc-1400-84c1-000688ce0fbf:0
+          701: OK    : shape_701                                OID: b905a280-06cc-1400-84c1-000688ce0fbf:1
+          702: OK    : shape_702                                OID: b9060fe0-06cc-1400-84c1-000688ce0fbf:0
+          703: OK    : shape_703                                OID: b9060fe0-06cc-1400-84c1-000688ce0fbf:1
+          704: OK    : shape_704                                OID: b9060fe0-06cc-1400-84c1-000688ce0fbf:2
+          705: OK    : shape_705                                OID: b9073ca8-06cc-1400-84c1-000688ce0fbf:0
+          706: OK    : shape_706                                OID: b9073ca8-06cc-1400-84c1-000688ce0fbf:1
+          707: OK    : shape_707                                OID: b9073ca8-06cc-1400-84c1-000688ce0fbf:2
+          708: OK    : shape_708                                OID: ba0737e8-06cc-1400-84c1-000688ce0fbf:0
+          709: OK    : shape_709                                OID: ba0737e8-06cc-1400-84c1-000688ce0fbf:1
+          710: OK    : shape_710                                OID: ba0737e8-06cc-1400-84c1-000688ce0fbf:2
+          711: OK    : shape_711                                OID: ba08ab00-06cc-1400-84c1-000688ce0fbf:0
+          712: OK    : shape_712                                OID: ba08ab00-06cc-1400-84c1-000688ce0fbf:1
+          713: OK    : shape_713                                OID: ba08ab00-06cc-1400-84c1-000688ce0fbf:2
+          714: OK    : shape_714                                OID: ba0d4a98-06cc-1400-84c1-000688ce0fbf:0
+          715: OK    : shape_715                                OID: ba0d4a98-06cc-1400-84c1-000688ce0fbf:1
+          716: OK    : shape_716                                OID: ba0d4a98-06cc-1400-84c1-000688ce0fbf:2
+          717: OK    : shape_717                                OID: ba0e9e70-06cc-1400-84c1-000688ce0fbf:0
+          718: OK    : shape_718                                OID: ba0e9e70-06cc-1400-84c1-000688ce0fbf:1
+          719: OK    : shape_719                                OID: ba0e9e70-06cc-1400-84c1-000688ce0fbf:2
+          720: OK    : shape_720                                OID: bb0a86b8-06cc-1400-84c1-000688ce0fbf:0
+          721: OK    : shape_721                                OID: bb0a86b8-06cc-1400-84c1-000688ce0fbf:1
+          722: OK    : shape_722                                OID: bb0b1b28-06cc-1400-84c1-000688ce0fbf:0
+          723: OK    : shape_723                                OID: bb0b1b28-06cc-1400-84c1-000688ce0fbf:1
+          724: OK    : shape_724                                OID: bb0b1b28-06cc-1400-84c1-000688ce0fbf:2
+          725: OK    : shape_725                                OID: bb0bee18-06cc-1400-84c1-000688ce0fbf:0
+          726: OK    : shape_726                                OID: bb0bee18-06cc-1400-84c1-000688ce0fbf:1
+          727: OK    : shape_727                                OID: bb0c5b78-06cc-1400-84c1-000688ce0fbf:0
+          728: OK    : shape_728                                OID: bb0c5b78-06cc-1400-84c1-000688ce0fbf:1
+          729: OK    : shape_729                                OID: bb0c5b78-06cc-1400-84c1-000688ce0fbf:2
+          730: OK    : shape_730                                OID: bb0d1ec8-06cc-1400-84c1-000688ce0fbf:0
+          731: OK    : shape_731                                OID: bb0d1ec8-06cc-1400-84c1-000688ce0fbf:1
+          732: OK    : shape_732                                OID: bb0d8c28-06cc-1400-84c1-000688ce0fbf:0
+          733: OK    : shape_733                                OID: bb0d8c28-06cc-1400-84c1-000688ce0fbf:1
+          734: OK    : shape_734                                OID: bb0d8c28-06cc-1400-84c1-000688ce0fbf:2
+          735: OK    : shape_735                                OID: bb0eb508-06cc-1400-84c1-000688ce0fbf:0
+          736: OK    : shape_736                                OID: bb0eb508-06cc-1400-84c1-000688ce0fbf:1
+          737: OK    : shape_737                                OID: bb0eb508-06cc-1400-84c1-000688ce0fbf:2
+          738: OK    : shape_738                                OID: bb0fdde8-06cc-1400-84c1-000688ce0fbf:0
+          739: OK    : shape_739                                OID: bb0fdde8-06cc-1400-84c1-000688ce0fbf:1
+          740: OK    : shape_740                                OID: bb0fdde8-06cc-1400-84c1-000688ce0fbf:2
+          741: OK    : shape_741                                OID: bb109d50-06cc-1400-84c1-000688ce0fbf:0
+          742: OK    : shape_742                                OID: bb109d50-06cc-1400-84c1-000688ce0fbf:1
+          743: OK    : shape_743                                OID: bb1106c8-06cc-1400-84c1-000688ce0fbf:0
+          744: OK    : shape_744                                OID: bb1106c8-06cc-1400-84c1-000688ce0fbf:1
+          745: OK    : shape_745                                OID: bb1106c8-06cc-1400-84c1-000688ce0fbf:2
+          746: OK    : shape_746                                OID: bb11dda0-06cc-1400-84c1-000688ce0fbf:0
+          747: OK    : shape_747                                OID: bb11dda0-06cc-1400-84c1-000688ce0fbf:1
+          748: OK    : shape_748                                OID: bb124b00-06cc-1400-84c1-000688ce0fbf:0
+          749: OK    : shape_749                                OID: bb124b00-06cc-1400-84c1-000688ce0fbf:1
+          750: OK    : shape_750                                OID: bb124b00-06cc-1400-84c1-000688ce0fbf:2
+          751: OK    : shape_751                                OID: bb138b50-06cc-1400-84c1-000688ce0fbf:0
+          752: OK    : shape_752                                OID: bb138b50-06cc-1400-84c1-000688ce0fbf:1
+          753: OK    : shape_753                                OID: bb138b50-06cc-1400-84c1-000688ce0fbf:2
+          754: OK    : shape_754                                OID: bb14b430-06cc-1400-84c1-000688ce0fbf:0
+          755: OK    : shape_755                                OID: bb14b430-06cc-1400-84c1-000688ce0fbf:1
+          756: OK    : shape_756                                OID: bb14b430-06cc-1400-84c1-000688ce0fbf:2
+          757: OK    : shape_757                                OID: bb157398-06cc-1400-84c1-000688ce0fbf:0
+          758: OK    : shape_758                                OID: bb157398-06cc-1400-84c1-000688ce0fbf:1
+          759: OK    : shape_759                                OID: bb15dd10-06cc-1400-84c1-000688ce0fbf:0
+          760: OK    : shape_760                                OID: bb15dd10-06cc-1400-84c1-000688ce0fbf:1
+          761: OK    : shape_761                                OID: bb15dd10-06cc-1400-84c1-000688ce0fbf:2
+          762: OK    : shape_762                                OID: bb169c78-06cc-1400-84c1-000688ce0fbf:0
+          763: OK    : shape_763                                OID: bb169c78-06cc-1400-84c1-000688ce0fbf:1
+          764: OK    : shape_764                                OID: bb1705f0-06cc-1400-84c1-000688ce0fbf:0
+          765: OK    : shape_765                                OID: bb1705f0-06cc-1400-84c1-000688ce0fbf:1
+          766: OK    : shape_766                                OID: bb1705f0-06cc-1400-84c1-000688ce0fbf:2
+          767: OK    : shape_767                                OID: bb17c170-06cc-1400-84c1-000688ce0fbf:0
+          768: OK    : shape_768                                OID: bb17c170-06cc-1400-84c1-000688ce0fbf:1
+          769: OK    : shape_769                                OID: bb182ed0-06cc-1400-84c1-000688ce0fbf:0
+          770: OK    : shape_770                                OID: bb182ed0-06cc-1400-84c1-000688ce0fbf:1
+          771: OK    : shape_771                                OID: bb182ed0-06cc-1400-84c1-000688ce0fbf:2
+          772: OK    : shape_772                                OID: bb196b38-06cc-1400-84c1-000688ce0fbf:0
+          773: OK    : shape_773                                OID: bb196b38-06cc-1400-84c1-000688ce0fbf:1
+          774: OK    : shape_774                                OID: bb196b38-06cc-1400-84c1-000688ce0fbf:2
+          775: OK    : shape_775                                OID: bb1a9800-06cc-1400-84c1-000688ce0fbf:0
+          776: OK    : shape_776                                OID: bb1a9800-06cc-1400-84c1-000688ce0fbf:1
+          777: OK    : shape_777                                OID: bb1a9800-06cc-1400-84c1-000688ce0fbf:2
+          778: OK    : shape_778                                OID: bbfe8f60-06cc-1400-84c1-000688ce0fbf:0
+          779: OK    : shape_779                                OID: bbfe8f60-06cc-1400-84c1-000688ce0fbf:1
+          780: OK    : shape_780                                OID: bbfe8f60-06cc-1400-84c1-000688ce0fbf:2
+          781: OK    : shape_781                                OID: bd026300-06cc-1400-84c1-000688ce0fbf:0
+          782: OK    : shape_782                                OID: bd026300-06cc-1400-84c1-000688ce0fbf:1
+          783: OK    : shape_783                                OID: bd02f770-06cc-1400-84c1-000688ce0fbf:0
+          784: OK    : shape_784                                OID: bd02f770-06cc-1400-84c1-000688ce0fbf:1
+          785: OK    : shape_785                                OID: bd02f770-06cc-1400-84c1-000688ce0fbf:2
+          786: OK    : shape_786                                OID: bd03ca60-06cc-1400-84c1-000688ce0fbf:0
+          787: OK    : shape_787                                OID: bd03ca60-06cc-1400-84c1-000688ce0fbf:1
+          788: OK    : shape_788                                OID: bd0433d8-06cc-1400-84c1-000688ce0fbf:0
+          789: OK    : shape_789                                OID: bd0433d8-06cc-1400-84c1-000688ce0fbf:1
+          790: OK    : shape_790                                OID: bd0433d8-06cc-1400-84c1-000688ce0fbf:2
+          791: OK    : shape_791                                OID: bd04f340-06cc-1400-84c1-000688ce0fbf:0
+          792: OK    : shape_792                                OID: bd04f340-06cc-1400-84c1-000688ce0fbf:1
+          793: OK    : shape_793                                OID: bd055cb8-06cc-1400-84c1-000688ce0fbf:0
+          794: OK    : shape_794                                OID: bd055cb8-06cc-1400-84c1-000688ce0fbf:1
+          795: OK    : shape_795                                OID: bd055cb8-06cc-1400-84c1-000688ce0fbf:2
+          796: OK    : shape_796                                OID: bd068980-06cc-1400-84c1-000688ce0fbf:0
+          797: OK    : shape_797                                OID: bd068980-06cc-1400-84c1-000688ce0fbf:1
+          798: OK    : shape_798                                OID: bd068980-06cc-1400-84c1-000688ce0fbf:2
+          799: OK    : shape_799                                OID: be067520-06cc-1400-84c1-000688ce0fbf:0
+          800: OK    : shape_800                                OID: be07ec20-06cc-1400-84c1-000688ce0fbf:0
+          801: OK    : shape_801                                OID: be095b50-06cc-1400-84c1-000688ce0fbf:0
+          802: OK    : shape_802                                OID: be0aca80-06cc-1400-84c1-000688ce0fbf:0
+          803: OK    : shape_803                                OID: be0c39b0-06cc-1400-84c1-000688ce0fbf:0
+          804: OK    : shape_804                                OID: be0da8e0-06cc-1400-84c1-000688ce0fbf:0
+          805: OK    : shape_805                                OID: be0f1bf8-06cc-1400-84c1-000688ce0fbf:0
+          806: OK    : shape_806                                OID: be108b28-06cc-1400-84c1-000688ce0fbf:0
+          807: OK    : shape_807                                OID: be16d488-06cc-1400-84c1-000688ce0fbf:0
+          808: OK    : shape_808                                OID: be1847a0-06cc-1400-84c1-000688ce0fbf:0
+          809: OK    : shape_809                                OID: be1e0848-06cc-1400-84c1-000688ce0fbf:0
+          810: OK    : shape_810                                OID: be1f7778-06cc-1400-84c1-000688ce0fbf:0
+          811: OK    : shape_811                                OID: be20e6a8-06cc-1400-84c1-000688ce0fbf:0
+          812: OK    : shape_812                                OID: be2259c0-06cc-1400-84c1-000688ce0fbf:0
+          813: OK    : shape_813                                OID: be23e448-06cc-1400-84c1-000688ce0fbf:0
+          814: OK    : shape_814                                OID: be255378-06cc-1400-84c1-000688ce0fbf:0
+          815: OK    : shape_815                                OID: be26c2a8-06cc-1400-84c1-000688ce0fbf:0
+          816: OK    : shape_816                                OID: be27c860-06cc-1400-84c1-000688ce0fbf:0
+          817: OK    : shape_817                                OID: be282df0-06cc-1400-84c1-000688ce0fbf:0
+          818: OK    : shape_818                                OID: be29a108-06cc-1400-84c1-000688ce0fbf:0
+          819: OK    : shape_819                                OID: bef95cb8-06cc-1400-84c1-000688ce0fbf:0
+          820: OK    : shape_820                                OID: bef95cb8-06cc-1400-84c1-000688ce0fbf:1
+          821: OK    : shape_821                                OID: bef9fce0-06cc-1400-84c1-000688ce0fbf:0
+          822: OK    : shape_822                                OID: bef9fce0-06cc-1400-84c1-000688ce0fbf:1
+          823: OK    : shape_823                                OID: befa6e28-06cc-1400-84c1-000688ce0fbf:0
+          824: OK    : shape_824                                OID: befa6e28-06cc-1400-84c1-000688ce0fbf:1
+          825: OK    : shape_825                                OID: befa6e28-06cc-1400-84c1-000688ce0fbf:2
+          826: OK    : shape_826                                OID: befba6a8-06cc-1400-84c1-000688ce0fbf:0
+          827: OK    : shape_827                                OID: befba6a8-06cc-1400-84c1-000688ce0fbf:1
+          828: OK    : shape_828                                OID: befba6a8-06cc-1400-84c1-000688ce0fbf:2
+          829: OK    : shape_829                                OID: befc69f8-06cc-1400-84c1-000688ce0fbf:0
+          830: OK    : shape_830                                OID: befc69f8-06cc-1400-84c1-000688ce0fbf:1
+          831: OK    : shape_831                                OID: befcd370-06cc-1400-84c1-000688ce0fbf:0
+          832: OK    : shape_832                                OID: befcd370-06cc-1400-84c1-000688ce0fbf:1
+          833: OK    : shape_833                                OID: befcd370-06cc-1400-84c1-000688ce0fbf:2
+          834: OK    : shape_834                                OID: befdfc50-06cc-1400-84c1-000688ce0fbf:0
+          835: OK    : shape_835                                OID: befdfc50-06cc-1400-84c1-000688ce0fbf:1
+          836: OK    : shape_836                                OID: befdfc50-06cc-1400-84c1-000688ce0fbf:2
+          837: OK    : shape_837                                OID: beff2918-06cc-1400-84c1-000688ce0fbf:0
+          838: OK    : shape_838                                OID: beff2918-06cc-1400-84c1-000688ce0fbf:1
+          839: OK    : shape_839                                OID: beff2918-06cc-1400-84c1-000688ce0fbf:2
+          840: OK    : shape_840                                OID: bf0051f8-06cc-1400-84c1-000688ce0fbf:0
+          841: OK    : shape_841                                OID: bf0051f8-06cc-1400-84c1-000688ce0fbf:1
+          842: OK    : shape_842                                OID: bf0051f8-06cc-1400-84c1-000688ce0fbf:2
+          843: OK    : shape_843                                OID: bf011160-06cc-1400-84c1-000688ce0fbf:0
+          844: OK    : shape_844                                OID: bf011160-06cc-1400-84c1-000688ce0fbf:1
+          845: OK    : shape_845                                OID: bf0176f0-06cc-1400-84c1-000688ce0fbf:0
+          846: OK    : shape_846                                OID: bf0176f0-06cc-1400-84c1-000688ce0fbf:1
+          847: OK    : shape_847                                OID: bf0176f0-06cc-1400-84c1-000688ce0fbf:2
+          848: OK    : shape_848                                OID: bf023658-06cc-1400-84c1-000688ce0fbf:0
+          849: OK    : shape_849                                OID: bf023658-06cc-1400-84c1-000688ce0fbf:1
+          850: OK    : shape_850                                OID: bf029fd0-06cc-1400-84c1-000688ce0fbf:0
+          851: OK    : shape_851                                OID: bf029fd0-06cc-1400-84c1-000688ce0fbf:1
+          852: OK    : shape_852                                OID: bf029fd0-06cc-1400-84c1-000688ce0fbf:2
+          853: OK    : shape_853                                OID: bf035380-06cc-1400-84c1-000688ce0fbf:0
+          854: OK    : shape_854                                OID: bf035380-06cc-1400-84c1-000688ce0fbf:1
+          855: OK    : shape_855                                OID: bf035380-06cc-1400-84c1-000688ce0fbf:2
+          856: OK    : shape_856                                OID: bffd3828-06cc-1400-84c1-000688ce0fbf:0
+          857: OK    : shape_857                                OID: bffd3828-06cc-1400-84c1-000688ce0fbf:1
+          858: OK    : shape_858                                OID: bffd3828-06cc-1400-84c1-000688ce0fbf:2
+          859: OK    : shape_859                                OID: bffd3828-06cc-1400-84c1-000688ce0fbf:3
+          860: OK    : shape_860                                OID: bffd3828-06cc-1400-84c1-000688ce0fbf:4
+          861: OK    : shape_861                                OID: bffdd468-06cc-1400-84c1-000688ce0fbf:0
+          862: OK    : shape_862                                OID: bffdd468-06cc-1400-84c1-000688ce0fbf:1
+          863: OK    : shape_863                                OID: bffdd468-06cc-1400-84c1-000688ce0fbf:2
+          864: OK    : shape_864                                OID: c101e688-06cc-1400-84c1-000688ce0fbf:0
+          865: OK    : shape_865                                OID: c1033290-06cc-1400-84c1-000688ce0fbf:0
+          866: OK    : shape_866                                OID: c1046b10-06cc-1400-84c1-000688ce0fbf:0
+          867: OK    : shape_867                                OID: c1059fa8-06cc-1400-84c1-000688ce0fbf:0
+          868: OK    : shape_868                                OID: c106d440-06cc-1400-84c1-000688ce0fbf:0
+          869: OK    : shape_869                                OID: c10808d8-06cc-1400-84c1-000688ce0fbf:0
+          870: OK    : shape_870                                OID: c108c070-06cc-1400-84c1-000688ce0fbf:0
+          871: OK    : shape_871                                OID: c109f120-06cc-1400-84c1-000688ce0fbf:0
+          872: OK    : shape_872                                OID: c10abc40-06cc-1400-84c1-000688ce0fbf:0
+          873: OK    : shape_873                                OID: c10b25b8-06cc-1400-84c1-000688ce0fbf:0
+          874: OK    : shape_874                                OID: c1f63198-06cc-1400-84c1-000688ce0fbf:0
+          875: OK    : shape_875                                OID: c1f63198-06cc-1400-84c1-000688ce0fbf:1
+          876: OK    : shape_876                                OID: c1f63198-06cc-1400-84c1-000688ce0fbf:2
+          877: OK    : shape_877                                OID: c1f85860-06cc-1400-84c1-000688ce0fbf:0
+          878: OK    : shape_878                                OID: c1f85860-06cc-1400-84c1-000688ce0fbf:1
+          879: OK    : shape_879                                OID: c1f85860-06cc-1400-84c1-000688ce0fbf:2
+          880: OK    : shape_880                                OID: c1f946a8-06cc-1400-84c1-000688ce0fbf:0
+          881: OK    : shape_881                                OID: c1f946a8-06cc-1400-84c1-000688ce0fbf:1
+          882: OK    : shape_882                                OID: c1f946a8-06cc-1400-84c1-000688ce0fbf:2
+          883: OK    : shape_883                                OID: c1f946a8-06cc-1400-84c1-000688ce0fbf:3
+          884: OK    : shape_884                                OID: c1f9b020-06cc-1400-84c1-000688ce0fbf:0
+          885: OK    : shape_885                                OID: c1f9b020-06cc-1400-84c1-000688ce0fbf:1
+          886: OK    : shape_886                                OID: c1f9b020-06cc-1400-84c1-000688ce0fbf:2
+          887: OK    : shape_887                                OID: c2f90b38-06cc-1400-84c1-000688ce0fbf:0
+          888: OK    : shape_888                                OID: c2f90b38-06cc-1400-84c1-000688ce0fbf:1
+          889: OK    : shape_889                                OID: c2f90b38-06cc-1400-84c1-000688ce0fbf:2
+          890: OK    : shape_890                                OID: c2fa2090-06cc-1400-84c1-000688ce0fbf:0
+          891: OK    : shape_891                                OID: c2fa2090-06cc-1400-84c1-000688ce0fbf:1
+          892: OK    : shape_892                                OID: c2fa2090-06cc-1400-84c1-000688ce0fbf:2
+          893: OK    : shape_893                                OID: c2fb1a90-06cc-1400-84c1-000688ce0fbf:0
+          894: OK    : shape_894                                OID: c2fb1a90-06cc-1400-84c1-000688ce0fbf:1
+          895: OK    : shape_895                                OID: c2fb1a90-06cc-1400-84c1-000688ce0fbf:2
+          896: OK    : shape_896                                OID: c2fb1a90-06cc-1400-84c1-000688ce0fbf:3
+          897: OK    : shape_897                                OID: c2fb87f0-06cc-1400-84c1-000688ce0fbf:0
+          898: OK    : shape_898                                OID: c2fb87f0-06cc-1400-84c1-000688ce0fbf:1
+          899: OK    : shape_899                                OID: c2fb87f0-06cc-1400-84c1-000688ce0fbf:2
+          900: OK    : shape_900                                OID: c2fcdfb0-06cc-1400-84c1-000688ce0fbf:0
+          901: OK    : shape_901                                OID: c2fcdfb0-06cc-1400-84c1-000688ce0fbf:1
+          902: OK    : shape_902                                OID: c2fcdfb0-06cc-1400-84c1-000688ce0fbf:2
+          903: OK    : shape_903                                OID: c2fdbe58-06cc-1400-84c1-000688ce0fbf:0
+          904: OK    : shape_904                                OID: c2fdbe58-06cc-1400-84c1-000688ce0fbf:1
+          905: OK    : shape_905                                OID: c2fdbe58-06cc-1400-84c1-000688ce0fbf:2
+          906: OK    : shape_906                                OID: c4f1cdf8-06cc-1400-84c1-000688ce0fbf:0
+          907: OK    : shape_907                                OID: c4f1cdf8-06cc-1400-84c1-000688ce0fbf:1
+          908: OK    : shape_908                                OID: c4f1cdf8-06cc-1400-84c1-000688ce0fbf:2
+          909: OK    : shape_909                                OID: c4f2df68-06cc-1400-84c1-000688ce0fbf:0
+          910: OK    : shape_910                                OID: c4f2df68-06cc-1400-84c1-000688ce0fbf:1
+          911: OK    : shape_911                                OID: c4f2df68-06cc-1400-84c1-000688ce0fbf:2
+          912: OK    : shape_912                                OID: c4f2df68-06cc-1400-84c1-000688ce0fbf:3
+          913: OK    : shape_913                                OID: c4f350b0-06cc-1400-84c1-000688ce0fbf:0
+          914: OK    : shape_914                                OID: c4f350b0-06cc-1400-84c1-000688ce0fbf:1
+          915: OK    : shape_915                                OID: c4f350b0-06cc-1400-84c1-000688ce0fbf:2
+          916: OK    : shape_916                                OID: c4f44e98-06cc-1400-84c1-000688ce0fbf:0
+          917: OK    : shape_917                                OID: c4f44e98-06cc-1400-84c1-000688ce0fbf:1
+          918: OK    : shape_918                                OID: c4f44e98-06cc-1400-84c1-000688ce0fbf:2
+          919: OK    : shape_919                                OID: c4f55838-06cc-1400-84c1-000688ce0fbf:0
+          920: OK    : shape_920                                OID: c4f55838-06cc-1400-84c1-000688ce0fbf:1
+          921: OK    : shape_921                                OID: c4f5c1b0-06cc-1400-84c1-000688ce0fbf:0
+          922: OK    : shape_922                                OID: c4f5c1b0-06cc-1400-84c1-000688ce0fbf:1
+          923: OK    : shape_923                                OID: c4f5c1b0-06cc-1400-84c1-000688ce0fbf:2
+          924: OK    : shape_924                                OID: c4f6cb50-06cc-1400-84c1-000688ce0fbf:0
+          925: OK    : shape_925                                OID: c4f6cb50-06cc-1400-84c1-000688ce0fbf:1
+          926: OK    : shape_926                                OID: c4f734c8-06cc-1400-84c1-000688ce0fbf:0
+          927: OK    : shape_927                                OID: c4f734c8-06cc-1400-84c1-000688ce0fbf:1
+          928: OK    : shape_928                                OID: c4f734c8-06cc-1400-84c1-000688ce0fbf:2
+          929: OK    : shape_929                                OID: c4f8a3f8-06cc-1400-84c1-000688ce0fbf:0
+          930: OK    : shape_930                                OID: c4f8a3f8-06cc-1400-84c1-000688ce0fbf:1
+          931: OK    : shape_931                                OID: c4f8a3f8-06cc-1400-84c1-000688ce0fbf:2
+          932: OK    : shape_932                                OID: c4f99df8-06cc-1400-84c1-000688ce0fbf:0
+          933: OK    : shape_933                                OID: c4f99df8-06cc-1400-84c1-000688ce0fbf:1
+          934: OK    : shape_934                                OID: c4f99df8-06cc-1400-84c1-000688ce0fbf:2
+          935: OK    : shape_935                                OID: c4fb14f8-06cc-1400-84c1-000688ce0fbf:0
+          936: OK    : shape_936                                OID: c4fb14f8-06cc-1400-84c1-000688ce0fbf:1
+          937: OK    : shape_937                                OID: c4fb14f8-06cc-1400-84c1-000688ce0fbf:2
+          938: OK    : shape_938                                OID: c4fc12e0-06cc-1400-84c1-000688ce0fbf:0
+          939: OK    : shape_939                                OID: c4fc12e0-06cc-1400-84c1-000688ce0fbf:1
+          940: OK    : shape_940                                OID: c4fc12e0-06cc-1400-84c1-000688ce0fbf:2
+          941: OK    : shape_941                                OID: c4fd85f8-06cc-1400-84c1-000688ce0fbf:0
+          942: OK    : shape_942                                OID: c4fd85f8-06cc-1400-84c1-000688ce0fbf:1
+          943: OK    : shape_943                                OID: c4fd85f8-06cc-1400-84c1-000688ce0fbf:2
+          944: OK    : shape_944                                OID: c4fef528-06cc-1400-84c1-000688ce0fbf:0
+          945: OK    : shape_945                                OID: c4fef528-06cc-1400-84c1-000688ce0fbf:1
+          946: OK    : shape_946                                OID: c4fef528-06cc-1400-84c1-000688ce0fbf:2
+          947: OK    : shape_947                                OID: c4fff310-06cc-1400-84c1-000688ce0fbf:0
+          948: OK    : shape_948                                OID: c4fff310-06cc-1400-84c1-000688ce0fbf:1
+          949: OK    : shape_949                                OID: c4fff310-06cc-1400-84c1-000688ce0fbf:2
+          950: OK    : shape_950                                OID: c5016628-06cc-1400-84c1-000688ce0fbf:0
+          951: OK    : shape_951                                OID: c5016628-06cc-1400-84c1-000688ce0fbf:1
+          952: OK    : shape_952                                OID: c5016628-06cc-1400-84c1-000688ce0fbf:2
+          953: OK    : shape_953                                OID: c502d940-06cc-1400-84c1-000688ce0fbf:0
+          954: OK    : shape_954                                OID: c502d940-06cc-1400-84c1-000688ce0fbf:1
+          955: OK    : shape_955                                OID: c502d940-06cc-1400-84c1-000688ce0fbf:2
+          956: OK    : shape_956                                OID: c5047750-06cc-1400-84c1-000688ce0fbf:0
+          957: OK    : shape_957                                OID: c5047750-06cc-1400-84c1-000688ce0fbf:1
+          958: OK    : shape_958                                OID: c5047750-06cc-1400-84c1-000688ce0fbf:2
+          959: OK    : shape_959                                OID: c505ea68-06cc-1400-84c1-000688ce0fbf:0
+          960: OK    : shape_960                                OID: c505ea68-06cc-1400-84c1-000688ce0fbf:1
+          961: OK    : shape_961                                OID: c505ea68-06cc-1400-84c1-000688ce0fbf:2
+          962: OK    : shape_962                                OID: c5075d80-06cc-1400-84c1-000688ce0fbf:0
+          963: OK    : shape_963                                OID: c5075d80-06cc-1400-84c1-000688ce0fbf:1
+          964: OK    : shape_964                                OID: c5075d80-06cc-1400-84c1-000688ce0fbf:2
+          965: OK    : shape_965                                OID: c508d098-06cc-1400-84c1-000688ce0fbf:0
+          966: OK    : shape_966                                OID: c508d098-06cc-1400-84c1-000688ce0fbf:1
+          967: OK    : shape_967                                OID: c508d098-06cc-1400-84c1-000688ce0fbf:2
+          968: OK    : shape_968                                OID: c50a43b0-06cc-1400-84c1-000688ce0fbf:0
+          969: OK    : shape_969                                OID: c50a43b0-06cc-1400-84c1-000688ce0fbf:1
+          970: OK    : shape_970                                OID: c50a43b0-06cc-1400-84c1-000688ce0fbf:2
+          971: OK    : shape_971                                OID: c50bbab0-06cc-1400-84c1-000688ce0fbf:0
+          972: OK    : shape_972                                OID: c50bbab0-06cc-1400-84c1-000688ce0fbf:1
+          973: OK    : shape_973                                OID: c50bbab0-06cc-1400-84c1-000688ce0fbf:2
+          974: OK    : shape_974                                OID: c704cf78-06cc-1400-84c1-000688ce0fbf:0
+          975: OK    : shape_975                                OID: c7065618-06cc-1400-84c1-000688ce0fbf:0
+          976: OK    : shape_976                                OID: c7075018-06cc-1400-84c1-000688ce0fbf:0
+          977: OK    : shape_977                                OID: c8f50e88-06cc-1400-84c1-000688ce0fbf:0
+          978: OK    : shape_978                                OID: c8f50e88-06cc-1400-84c1-000688ce0fbf:1
+          979: OK    : shape_979                                OID: c8f652c0-06cc-1400-84c1-000688ce0fbf:0
+          980: OK    : shape_980                                OID: c8f652c0-06cc-1400-84c1-000688ce0fbf:1
+          981: OK    : shape_981                                OID: c8f652c0-06cc-1400-84c1-000688ce0fbf:2
+          982: OK    : shape_982                                OID: c8f76818-06cc-1400-84c1-000688ce0fbf:0
+          983: OK    : shape_983                                OID: c8f76818-06cc-1400-84c1-000688ce0fbf:1
+          984: OK    : shape_984                                OID: c8f76818-06cc-1400-84c1-000688ce0fbf:2
+          985: OK    : shape_985                                OID: caf0f210-06cc-1400-84c1-000688ce0fbf:0
+          986: OK    : shape_986                                OID: caf0f210-06cc-1400-84c1-000688ce0fbf:1
+          987: OK    : shape_987                                OID: caf0f210-06cc-1400-84c1-000688ce0fbf:2
+          988: OK    : shape_988                                OID: caf16b28-06cc-1400-84c1-000688ce0fbf:0
+          989: OK    : shape_989                                OID: caf16b28-06cc-1400-84c1-000688ce0fbf:1
+          990: OK    : shape_990                                OID: caf16b28-06cc-1400-84c1-000688ce0fbf:2
+          991: OK    : shape_991                                OID: caf23e18-06cc-1400-84c1-000688ce0fbf:0
+          992: OK    : shape_992                                OID: caf23e18-06cc-1400-84c1-000688ce0fbf:1
+          993: OK    : shape_993                                OID: caf23e18-06cc-1400-84c1-000688ce0fbf:2
+          994: OK    : shape_994                                OID: caf2bf00-06cc-1400-84c1-000688ce0fbf:0
+          995: OK    : shape_995                                OID: caf2bf00-06cc-1400-84c1-000688ce0fbf:1
+          996: OK    : shape_996                                OID: caf2bf00-06cc-1400-84c1-000688ce0fbf:2
+          997: OK    : shape_997                                OID: caf38a20-06cc-1400-84c1-000688ce0fbf:0
+          998: OK    : shape_998                                OID: caf38a20-06cc-1400-84c1-000688ce0fbf:1
+          999: OK    : shape_999                                OID: caf38a20-06cc-1400-84c1-000688ce0fbf:2
+         1000: OK    : shape_1000                               OID: caf45d10-06cc-1400-84c1-000688ce0fbf:0
+         1001: OK    : shape_1001                               OID: caf45d10-06cc-1400-84c1-000688ce0fbf:1
+         1002: OK    : shape_1002                               OID: caf45d10-06cc-1400-84c1-000688ce0fbf:2
+         1003: OK    : shape_1003                               OID: caf4da10-06cc-1400-84c1-000688ce0fbf:0
+         1004: OK    : shape_1004                               OID: caf4da10-06cc-1400-84c1-000688ce0fbf:1
+         1005: OK    : shape_1005                               OID: caf4da10-06cc-1400-84c1-000688ce0fbf:2
+         1006: OK    : shape_1006                               OID: caf55328-06cc-1400-84c1-000688ce0fbf:0
+         1007: OK    : shape_1007                               OID: caf55328-06cc-1400-84c1-000688ce0fbf:1
+         1008: OK    : shape_1008                               OID: caf55328-06cc-1400-84c1-000688ce0fbf:2
+         1009: OK    : shape_1009                               OID: cbec5970-06cc-1400-84c1-000688ce0fbf:0
+         1010: OK    : shape_1010                               OID: cbed47b8-06cc-1400-84c1-000688ce0fbf:0
+         1011: OK    : shape_1011                               OID: cbee3600-06cc-1400-84c1-000688ce0fbf:0
+         1012: OK    : shape_1012                               OID: cbef2448-06cc-1400-84c1-000688ce0fbf:0
+         1013: OK    : shape_1013                               OID: cbf00ea8-06cc-1400-84c1-000688ce0fbf:0
+         1014: OK    : shape_1014                               OID: cbf0f908-06cc-1400-84c1-000688ce0fbf:0
+         1015: OK    : shape_1015                               OID: cbf225d0-06cc-1400-84c1-000688ce0fbf:0
+         1016: OK    : shape_1016                               OID: cbf31800-06cc-1400-84c1-000688ce0fbf:0
+         1017: OK    : shape_1017                               OID: cbf40260-06cc-1400-84c1-000688ce0fbf:0
+         1018: OK    : shape_1018                               OID: ccee1db8-06cc-1400-84c1-000688ce0fbf:0
+         1019: OK    : shape_1019                               OID: cceed168-06cc-1400-84c1-000688ce0fbf:0
+         1020: OK    : shape_1020                               OID: ccef8ce8-06cc-1400-84c1-000688ce0fbf:0
+         1021: OK    : shape_1021                               OID: ccf038c8-06cc-1400-84c1-000688ce0fbf:0
+         1022: OK    : shape_1022                               OID: ccf0e890-06cc-1400-84c1-000688ce0fbf:0
+         1023: OK    : shape_1023                               OID: ccf19470-06cc-1400-84c1-000688ce0fbf:0
+         1024: OK    : shape_1024                               OID: ccf24438-06cc-1400-84c1-000688ce0fbf:0
+         1025: OK    : shape_1025                               OID: ccf2a5e0-06cc-1400-84c1-000688ce0fbf:0
+         1026: OK    : shape_1026                               OID: ccf351c0-06cc-1400-84c1-000688ce0fbf:0
+         1027: OK    : shape_1027                               OID: cdf28d98-06cc-1400-84c1-000688ce0fbf:0
+         1028: OK    : shape_1028                               OID: cdf28d98-06cc-1400-84c1-000688ce0fbf:1
+         1029: OK    : shape_1029                               OID: cdf28d98-06cc-1400-84c1-000688ce0fbf:2
+         1030: OK    : shape_1030                               OID: cee755a8-06cc-1400-84c1-000688ce0fbf:0
+         1031: OK    : shape_1031                               OID: cee755a8-06cc-1400-84c1-000688ce0fbf:1
+         1032: OK    : shape_1032                               OID: cee755a8-06cc-1400-84c1-000688ce0fbf:2
+         1033: OK    : shape_1033                               OID: cee7e248-06cc-1400-84c1-000688ce0fbf:0
+         1034: OK    : shape_1034                               OID: cee7e248-06cc-1400-84c1-000688ce0fbf:1
+         1035: OK    : shape_1035                               OID: cee824b0-06cc-1400-84c1-000688ce0fbf:0
+         1036: OK    : shape_1036                               OID: cee824b0-06cc-1400-84c1-000688ce0fbf:1
+         1037: OK    : shape_1037                               OID: cee824b0-06cc-1400-84c1-000688ce0fbf:2
+         1038: OK    : shape_1038                               OID: cee89210-06cc-1400-84c1-000688ce0fbf:0
+         1039: OK    : shape_1039                               OID: cee89210-06cc-1400-84c1-000688ce0fbf:1
+         1040: OK    : shape_1040                               OID: cee8cca8-06cc-1400-84c1-000688ce0fbf:0
+         1041: OK    : shape_1041                               OID: cee8cca8-06cc-1400-84c1-000688ce0fbf:1
+         1042: OK    : shape_1042                               OID: cee8cca8-06cc-1400-84c1-000688ce0fbf:2
+         1043: OK    : shape_1043                               OID: cee993e0-06cc-1400-84c1-000688ce0fbf:0
+         1044: OK    : shape_1044                               OID: cee993e0-06cc-1400-84c1-000688ce0fbf:1
+         1045: OK    : shape_1045                               OID: cee993e0-06cc-1400-84c1-000688ce0fbf:2
+         1046: OK    : shape_1046                               OID: cfe9be00-06cc-1400-84c1-000688ce0fbf:0
+         1047: OK    : shape_1047                               OID: cfe9be00-06cc-1400-84c1-000688ce0fbf:1
+         1048: OK    : shape_1048                               OID: cfe9be00-06cc-1400-84c1-000688ce0fbf:2
+         1049: OK    : shape_1049                               OID: cfea7598-06cc-1400-84c1-000688ce0fbf:0
+         1050: OK    : shape_1050                               OID: cfea7598-06cc-1400-84c1-000688ce0fbf:1
+         1051: OK    : shape_1051                               OID: cfea7598-06cc-1400-84c1-000688ce0fbf:2
+         1052: OK    : shape_1052                               OID: cfeadf10-06cc-1400-84c1-000688ce0fbf:0
+         1053: OK    : shape_1053                               OID: cfeadf10-06cc-1400-84c1-000688ce0fbf:1
+         1054: OK    : shape_1054                               OID: cfeb2178-06cc-1400-84c1-000688ce0fbf:0
+         1055: OK    : shape_1055                               OID: cfeb2178-06cc-1400-84c1-000688ce0fbf:1
+         1056: OK    : shape_1056                               OID: cfeb2178-06cc-1400-84c1-000688ce0fbf:2
+         1057: OK    : shape_1057                               OID: cfeb8af0-06cc-1400-84c1-000688ce0fbf:0
+         1058: OK    : shape_1058                               OID: cfeb8af0-06cc-1400-84c1-000688ce0fbf:1
+         1059: OK    : shape_1059                               OID: cfebc588-06cc-1400-84c1-000688ce0fbf:0
+         1060: OK    : shape_1060                               OID: cfebc588-06cc-1400-84c1-000688ce0fbf:1
+         1061: OK    : shape_1061                               OID: cfebc588-06cc-1400-84c1-000688ce0fbf:2
+         1062: OK    : shape_1062                               OID: cfec2f00-06cc-1400-84c1-000688ce0fbf:0
+         1063: OK    : shape_1063                               OID: cfec2f00-06cc-1400-84c1-000688ce0fbf:1
+         1064: OK    : shape_1064                               OID: cfec6998-06cc-1400-84c1-000688ce0fbf:0
+         1065: OK    : shape_1065                               OID: cfec6998-06cc-1400-84c1-000688ce0fbf:1
+         1066: OK    : shape_1066                               OID: cfec6998-06cc-1400-84c1-000688ce0fbf:2
+         1067: OK    : shape_1067                               OID: cfed34b8-06cc-1400-84c1-000688ce0fbf:0
+         1068: OK    : shape_1068                               OID: cfed34b8-06cc-1400-84c1-000688ce0fbf:1
+         1069: OK    : shape_1069                               OID: cfed34b8-06cc-1400-84c1-000688ce0fbf:2
+         1070: OK    : shape_1070                               OID: cfeda218-06cc-1400-84c1-000688ce0fbf:0
+         1071: OK    : shape_1071                               OID: cfeda218-06cc-1400-84c1-000688ce0fbf:1
+         1072: OK    : shape_1072                               OID: cfede098-06cc-1400-84c1-000688ce0fbf:0
+         1073: OK    : shape_1073                               OID: cfede098-06cc-1400-84c1-000688ce0fbf:1
+         1074: OK    : shape_1074                               OID: cfede098-06cc-1400-84c1-000688ce0fbf:2
+         1075: OK    : shape_1075                               OID: cfee3a70-06cc-1400-84c1-000688ce0fbf:0
+         1076: OK    : shape_1076                               OID: cfee3a70-06cc-1400-84c1-000688ce0fbf:1
+         1077: OK    : shape_1077                               OID: cfee3a70-06cc-1400-84c1-000688ce0fbf:2
+         1078: OK    : shape_1078                               OID: d0f69e08-06cc-1400-84c1-000688ce0fbf:0
+         1079: OK    : shape_1079                               OID: d0f74218-06cc-1400-84c1-000688ce0fbf:0
+         1080: OK    : shape_1080                               OID: d0f7ea10-06cc-1400-84c1-000688ce0fbf:0
+         1081: OK    : shape_1081                               OID: d0f872c8-06cc-1400-84c1-000688ce0fbf:0
+         1082: OK    : shape_1082                               OID: 2b552388-06cd-1400-84c1-000688ce0fbf:0
+         1083: OK    : shape_1083                               OID: 2b552388-06cd-1400-84c1-000688ce0fbf:1
+         1084: OK    : shape_1084                               OID: 2b552388-06cd-1400-84c1-000688ce0fbf:2
+         1085: OK    : shape_1085                               OID: 2b5542c8-06cd-1400-84c1-000688ce0fbf:0
+         1086: OK    : shape_1086                               OID: 2b5542c8-06cd-1400-84c1-000688ce0fbf:1
+         1087: OK    : shape_1087                               OID: 2b5542c8-06cd-1400-84c1-000688ce0fbf:2
+         1088: OK    : shape_1088                               OID: 3a4e7b78-06cd-1400-84c1-000688ce0fbf:0
+         1089: OK    : shape_1089                               OID: 3a4e7b78-06cd-1400-84c1-000688ce0fbf:1
+         1090: OK    : shape_1090                               OID: 3a4e7b78-06cd-1400-84c1-000688ce0fbf:2
+         1091: OK    : shape_1091                               OID: 3a4eae40-06cd-1400-84c1-000688ce0fbf:0
+         1092: OK    : shape_1092                               OID: 3a4ed938-06cd-1400-84c1-000688ce0fbf:0
+         1093: OK    : shape_1093                               OID: 3b3fd0b8-06cd-1400-84c1-000688ce0fbf:0
+         1094: OK    : shape_1094                               OID: 3b3fd0b8-06cd-1400-84c1-000688ce0fbf:1
+         1095: OK    : shape_1095                               OID: 3b3fd0b8-06cd-1400-84c1-000688ce0fbf:2
+         1096: OK    : shape_1096                               OID: 3b3fe828-06cd-1400-84c1-000688ce0fbf:0
+         1097: OK    : shape_1097                               OID: 3b401af0-06cd-1400-84c1-000688ce0fbf:0
+         1098: OK    : shape_1098                               OID: 53207890-06cd-1400-84c1-000688ce0fbf:0
+         1099: OK    : shape_1099                               OID: 53207890-06cd-1400-84c1-000688ce0fbf:1
+         1100: OK    : shape_1100                               OID: 53207890-06cd-1400-84c1-000688ce0fbf:2
+         1101: OK    : shape_1101                               OID: 5320ab58-06cd-1400-84c1-000688ce0fbf:0
+         1102: OK    : shape_1102                               OID: 5320c2c8-06cd-1400-84c1-000688ce0fbf:0
+         1103: OK    : shape_1103                               OID: 5320d650-06cd-1400-84c1-000688ce0fbf:0
+         1104: OK    : shape_1104                               OID: 56425200-06cd-1400-84c1-000688ce0fbf:0
+         1105: OK    : shape_1105                               OID: 56425200-06cd-1400-84c1-000688ce0fbf:1
+         1106: OK    : shape_1106                               OID: 56425200-06cd-1400-84c1-000688ce0fbf:2
+         1107: OK    : shape_1107                               OID: 56426d58-06cd-1400-84c1-000688ce0fbf:0
+         1108: OK    : shape_1108                               OID: 56429850-06cd-1400-84c1-000688ce0fbf:0
+         1109: OK    : shape_1109                               OID: 69ffb210-06cd-1400-84c1-000688ce0fbf:0
+         1110: OK    : shape_1110                               OID: 69ffb210-06cd-1400-84c1-000688ce0fbf:1
+         1111: OK    : shape_1111                               OID: 69ffb210-06cd-1400-84c1-000688ce0fbf:2
+         1112: OK    : shape_1112                               OID: 69ffeca8-06cd-1400-84c1-000688ce0fbf:0
+         1113: OK    : shape_1113                               OID: 69ffeca8-06cd-1400-84c1-000688ce0fbf:1
+         1114: OK    : shape_1114                               OID: 69ffeca8-06cd-1400-84c1-000688ce0fbf:2
+         1115: OK    : shape_1115                               OID: 6a000418-06cd-1400-84c1-000688ce0fbf:0
+         1116: OK    : shape_1116                               OID: 6a000418-06cd-1400-84c1-000688ce0fbf:1
+         1117: OK    : shape_1117                               OID: 6a000418-06cd-1400-84c1-000688ce0fbf:2
+         1118: OK    : shape_1118                               OID: 6a0013b8-06cd-1400-84c1-000688ce0fbf:0
+         1119: OK    : shape_1119                               OID: 6a0013b8-06cd-1400-84c1-000688ce0fbf:1
+         1120: OK    : shape_1120                               OID: 6a0013b8-06cd-1400-84c1-000688ce0fbf:2
+         1121: OK    : shape_1121                               OID: 6a0036e0-06cd-1400-84c1-000688ce0fbf:0
+         1122: OK    : shape_1122                               OID: 6a0036e0-06cd-1400-84c1-000688ce0fbf:1
+         1123: OK    : shape_1123                               OID: 6a0036e0-06cd-1400-84c1-000688ce0fbf:2
+         1124: OK    : shape_1124                               OID: 80e52938-06cd-1400-84c1-000688ce0fbf:0
+         1125: OK    : shape_1125                               OID: 80e52938-06cd-1400-84c1-000688ce0fbf:1
+         1126: OK    : shape_1126                               OID: 80e52938-06cd-1400-84c1-000688ce0fbf:2
+         1127: OK    : shape_1127                               OID: 80e55048-06cd-1400-84c1-000688ce0fbf:0
+         1128: OK    : shape_1128                               OID: 80e57b40-06cd-1400-84c1-000688ce0fbf:0
+         1129: OK    : shape_1129                               OID: 82d9a638-06cd-1400-84c1-000688ce0fbf:0
+         1130: OK    : shape_1130                               OID: 82d9a638-06cd-1400-84c1-000688ce0fbf:1
+         1131: OK    : shape_1131                               OID: 82d9a638-06cd-1400-84c1-000688ce0fbf:2
+         1132: OK    : shape_1132                               OID: 82d9c190-06cd-1400-84c1-000688ce0fbf:0
+         1133: OK    : shape_1133                               OID: 82d9e8a0-06cd-1400-84c1-000688ce0fbf:0
+         1134: OK    : shape_1134                               OID: 7cbedad8-06ce-1400-84c1-000688ce0fbf:0
+         1135: OK    : shape_1135                               OID: 7cbf3898-06ce-1400-84c1-000688ce0fbf:0
+         1136: OK    : shape_1136                               OID: 7cbf5fa8-06ce-1400-84c1-000688ce0fbf:0
+         1137: OK    : shape_1137                               OID: 7cbfa9e0-06ce-1400-84c1-000688ce0fbf:0
+         1138: OK    : shape_1138                               OID: 7cbfa9e0-06ce-1400-84c1-000688ce0fbf:1
+         1139: OK    : shape_1139                               OID: 7cbfa9e0-06ce-1400-84c1-000688ce0fbf:2
+         1140: OK    : shape_1140                               OID: 7cbfc920-06ce-1400-84c1-000688ce0fbf:0
+         1141: OK    : shape_1141                               OID: 7cbfc920-06ce-1400-84c1-000688ce0fbf:1
+         1142: OK    : shape_1142                               OID: 7cbfc920-06ce-1400-84c1-000688ce0fbf:2
+         1143: OK    : shape_1143                               OID: 7cbfe090-06ce-1400-84c1-000688ce0fbf:0
+         1144: OK    : shape_1144                               OID: 7cbfe090-06ce-1400-84c1-000688ce0fbf:1
+         1145: OK    : shape_1145                               OID: 7cbfe090-06ce-1400-84c1-000688ce0fbf:2
+         1146: OK    : shape_1146                               OID: 7cbff800-06ce-1400-84c1-000688ce0fbf:0
+         1147: OK    : shape_1147                               OID: 7cc00f70-06ce-1400-84c1-000688ce0fbf:0
+         1148: OK    : shape_1148                               OID: 7cc00f70-06ce-1400-84c1-000688ce0fbf:1
+         1149: OK    : shape_1149                               OID: 7cc00f70-06ce-1400-84c1-000688ce0fbf:2
+         1150: OK    : shape_1150                               OID: 7cc04620-06ce-1400-84c1-000688ce0fbf:0
+         1151: OK    : shape_1151                               OID: 7cc0abb0-06ce-1400-84c1-000688ce0fbf:0
+         1152: OK    : shape_1152                               OID: 7cc0de78-06ce-1400-84c1-000688ce0fbf:0
+         1153: OK    : shape_1153                               OID: 7cc0de78-06ce-1400-84c1-000688ce0fbf:1
+         1154: OK    : shape_1154                               OID: 7cc0de78-06ce-1400-84c1-000688ce0fbf:2
+         1155: OK    : shape_1155                               OID: 7cc0f9d0-06ce-1400-84c1-000688ce0fbf:0
+         1156: OK    : shape_1156                               OID: 7cc11140-06ce-1400-84c1-000688ce0fbf:0
+         1157: OK    : shape_1157                               OID: 7cc11140-06ce-1400-84c1-000688ce0fbf:1
+         1158: OK    : shape_1158                               OID: 7cc11140-06ce-1400-84c1-000688ce0fbf:2
+         1159: OK    : shape_1159                               OID: 7cc12c98-06ce-1400-84c1-000688ce0fbf:0
+         1160: OK    : shape_1160                               OID: 7cc12c98-06ce-1400-84c1-000688ce0fbf:1
+         1161: OK    : shape_1161                               OID: 7cc12c98-06ce-1400-84c1-000688ce0fbf:2
+         1162: OK    : shape_1162                               OID: 7cc14408-06ce-1400-84c1-000688ce0fbf:0
+         1163: OK    : shape_1163                               OID: 7cc14408-06ce-1400-84c1-000688ce0fbf:1
+         1164: OK    : shape_1164                               OID: 7cc14408-06ce-1400-84c1-000688ce0fbf:2
+         1165: OK    : shape_1165                               OID: 7cc15f60-06ce-1400-84c1-000688ce0fbf:0
+         1166: OK    : shape_1166                               OID: 7cc176d0-06ce-1400-84c1-000688ce0fbf:0
+         1167: OK    : shape_1167                               OID: 7cc176d0-06ce-1400-84c1-000688ce0fbf:1
+         1168: OK    : shape_1168                               OID: 7cc176d0-06ce-1400-84c1-000688ce0fbf:2
+         1169: OK    : shape_1169                               OID: 7cc1a1c8-06ce-1400-84c1-000688ce0fbf:0
+         1170: OK    : shape_1170                               OID: 7cc1d0a8-06ce-1400-84c1-000688ce0fbf:0
+         1171: OK    : shape_1171                               OID: 7cc1ec00-06ce-1400-84c1-000688ce0fbf:0
+         1172: OK    : shape_1172                               OID: 7cc1ec00-06ce-1400-84c1-000688ce0fbf:1
+         1173: OK    : shape_1173                               OID: 7cc1ec00-06ce-1400-84c1-000688ce0fbf:2
+         1174: OK    : shape_1174                               OID: 7cc20758-06ce-1400-84c1-000688ce0fbf:0
+         1175: OK    : shape_1175                               OID: 7cc20758-06ce-1400-84c1-000688ce0fbf:1
+         1176: OK    : shape_1176                               OID: 7cc20758-06ce-1400-84c1-000688ce0fbf:2
+         1177: OK    : shape_1177                               OID: 7cc21ec8-06ce-1400-84c1-000688ce0fbf:0
+         1178: OK    : shape_1178                               OID: 7cc21ec8-06ce-1400-84c1-000688ce0fbf:1
+         1179: OK    : shape_1179                               OID: 7cc21ec8-06ce-1400-84c1-000688ce0fbf:2
+         1180: OK    : shape_1180                               OID: 7cc23638-06ce-1400-84c1-000688ce0fbf:0
+         1181: OK    : shape_1181                               OID: 7cc2bef0-06ce-1400-84c1-000688ce0fbf:0
+         1182: OK    : shape_1182                               OID: 7cc2bef0-06ce-1400-84c1-000688ce0fbf:1
+         1183: OK    : shape_1183                               OID: 7cc2bef0-06ce-1400-84c1-000688ce0fbf:2
+         1184: OK    : shape_1184                               OID: 7cc2e218-06ce-1400-84c1-000688ce0fbf:0
+         1185: OK    : shape_1185                               OID: 7cc33420-06ce-1400-84c1-000688ce0fbf:0
+         1186: OK    : shape_1186                               OID: 7cc34f78-06ce-1400-84c1-000688ce0fbf:0
+         1187: OK    : shape_1187                               OID: 7cc34f78-06ce-1400-84c1-000688ce0fbf:1
+         1188: OK    : shape_1188                               OID: 7cc34f78-06ce-1400-84c1-000688ce0fbf:2
+         1189: OK    : shape_1189                               OID: 7cc38240-06ce-1400-84c1-000688ce0fbf:0
+         1190: OK    : shape_1190                               OID: 7cc39d98-06ce-1400-84c1-000688ce0fbf:0
+         1191: OK    : shape_1191                               OID: 7cc39d98-06ce-1400-84c1-000688ce0fbf:1
+         1192: OK    : shape_1192                               OID: 7cc39d98-06ce-1400-84c1-000688ce0fbf:2
+         1193: OK    : shape_1193                               OID: 7cc3cc78-06ce-1400-84c1-000688ce0fbf:0
+         1194: OK    : shape_1194                               OID: 7cc3e3e8-06ce-1400-84c1-000688ce0fbf:0
+         1195: OK    : shape_1195                               OID: 7cc416b0-06ce-1400-84c1-000688ce0fbf:0
+         1196: OK    : shape_1196                               OID: 7cc416b0-06ce-1400-84c1-000688ce0fbf:1
+         1197: OK    : shape_1197                               OID: 7cc416b0-06ce-1400-84c1-000688ce0fbf:2
+         1198: OK    : shape_1198                               OID: 7cc47470-06ce-1400-84c1-000688ce0fbf:0
+         1199: OK    : shape_1199                               OID: 7cc47470-06ce-1400-84c1-000688ce0fbf:1
+         1200: OK    : shape_1200                               OID: 7cc47470-06ce-1400-84c1-000688ce0fbf:2
+         1201: OK    : shape_1201                               OID: cfef8040-06ce-1400-84c1-000688ce0fbf:0
+         1202: OK    : shape_1202                               OID: cfeff188-06ce-1400-84c1-000688ce0fbf:0
+         1203: OK    : shape_1203                               OID: 17827020-06cf-1400-84c1-000688ce0fbf:0
+         1204: OK    : shape_1204                               OID: 1782d1c8-06cf-1400-84c1-000688ce0fbf:0
+         1205: OK    : shape_1205                               OID: 1782e168-06cf-1400-84c1-000688ce0fbf:0
+         1206: OK    : shape_1206                               OID: 17835698-06cf-1400-84c1-000688ce0fbf:0
+         1207: OK    : shape_1207                               OID: 227e34a0-06cf-1400-84c1-000688ce0fbf:0
+         1208: OK    : shape_1208                               OID: 227e34a0-06cf-1400-84c1-000688ce0fbf:1
+         1209: OK    : shape_1209                               OID: 227e34a0-06cf-1400-84c1-000688ce0fbf:2
+         1210: OK    : shape_1210                               OID: 227ec910-06cf-1400-84c1-000688ce0fbf:0
+         1211: OK    : shape_1211                               OID: 227ec910-06cf-1400-84c1-000688ce0fbf:1
+         1212: OK    : shape_1212                               OID: 227ec910-06cf-1400-84c1-000688ce0fbf:2
+         1213: OK    : shape_1213                               OID: 27709bd8-06cf-1400-84c1-000688ce0fbf:0
+         1214: OK    : shape_1214                               OID: 2770cea0-06cf-1400-84c1-000688ce0fbf:0
+         1215: OK    : shape_1215                               OID: 39527d58-06cf-1400-84c1-000688ce0fbf:0
+         1216: OK    : shape_1216                               OID: 39527d58-06cf-1400-84c1-000688ce0fbf:1
+         1217: OK    : shape_1217                               OID: 39527d58-06cf-1400-84c1-000688ce0fbf:2
+         1218: OK    : shape_1218                               OID: 3952b7f0-06cf-1400-84c1-000688ce0fbf:0
+         1219: OK    : shape_1219                               OID: 9837d470-086a-1400-84c1-000688ce0fbf
+         1220: OK    : shape_1220                               OID: 1b1efea8-086c-1400-84c1-000688ce0fbf
+         1221: ERROR : shape_1221                               OID: 6fc4fd08-086d-1400-84c1-000688ce0fbf
+         1222: OK    : shape_1222                               OID: b4562928-086e-1400-84c1-000688ce0fbf
+         1223: OK    : shape_1223                               OID: e6104a10-086f-1400-84c1-000688ce0fbf
+         1224: OK    : shape_1224                               OID: c80b12d8-0870-1400-84c1-000688ce0fbf
+         1225: OK    : shape_1225                               OID: 86a0df38-0a6b-1400-84c1-000688ce0fbf
+         1226: OK    : shape_1226                               OID: 94d046b0-0a6c-1400-84c1-000688ce0fbf
+         1227: OK    : shape_1227                               OID: 3e961430-0a6e-1400-84c1-000688ce0fbf
+         1228: OK    : shape_1228                               OID: 97807f98-0a75-1400-84c1-000688ce0fbf
+         1229: OK    : shape_1229                               OID: 2c98c878-0a77-1400-84c1-000688ce0fbf
+         1230: OK    : shape_1230                               OID: f456add0-0a77-1400-84c1-000688ce0fbf
+         1231: OK    : shape_1231                               OID: f6810aa0-0a78-1400-84c1-000688ce0fbf
+         1232: OK    : shape_1232                               OID: 5d4caa40-0a7a-1400-84c1-000688ce0fbf
+         1233: OK    : shape_1233                               OID: 986f6c88-0a7b-1400-84c1-000688ce0fbf
+         1234: OK    : shape_1234                               OID: 98c300a8-0a7d-1400-84c1-000688ce0fbf
+         1235: OK    : shape_1235                               OID: 19a40658-0a7f-1400-84c1-000688ce0fbf
+         1236: OK    : shape_1236                               OID: eaddcec0-0a7f-1400-84c1-000688ce0fbf
+         1237: OK    : shape_1237                               OID: a7f1b918-0a80-1400-84c1-000688ce0fbf
+         1238: OK    : shape_1238                               OID: 956ce398-0a81-1400-84c1-000688ce0fbf
+         1239: OK    : shape_1239                               OID: 628705e8-0a82-1400-84c1-000688ce0fbf
+         1240: OK    : shape_1240                               OID: ea180920-0a83-1400-84c1-000688ce0fbf
+         1241: OK    : shape_1241                               OID: c2b5a620-0a84-1400-84c1-000688ce0fbf
+         1242: OK    : shape_1242                               OID: 75c781c0-0a85-1400-84c1-000688ce0fbf
+         1243: OK    : shape_1243                               OID: eb438970-0a86-1400-84c1-000688ce0fbf
+         1244: OK    : shape_1244                               OID: cf886ec8-0a89-1400-84c1-000688ce0fbf:0
+         1245: OK    : shape_1245                               OID: cf886ec8-0a89-1400-84c1-000688ce0fbf:1
+         1246: OK    : shape_1246                               OID: cf886ec8-0a89-1400-84c1-000688ce0fbf:2
+         1247: OK    : shape_1247                               OID: cf886ec8-0a89-1400-84c1-000688ce0fbf:3
+         1248: OK    : shape_1248                               OID: cf886ec8-0a89-1400-84c1-000688ce0fbf:4
+         1249: OK    : shape_1249                               OID: cf895928-0a89-1400-84c1-000688ce0fbf:0
+         1250: OK    : shape_1250                               OID: cf895928-0a89-1400-84c1-000688ce0fbf:1
+         1251: OK    : shape_1251                               OID: cf895928-0a89-1400-84c1-000688ce0fbf:2
+         1252: OK    : shape_1252                               OID: cf8bed50-0a89-1400-84c1-000688ce0fbf:0
+         1253: OK    : shape_1253                               OID: cf8bed50-0a89-1400-84c1-000688ce0fbf:1
+         1254: OK    : shape_1254                               OID: cf8bed50-0a89-1400-84c1-000688ce0fbf:2
+         1255: OK    : shape_1255                               OID: dc591288-0a89-1400-84c1-000688ce0fbf:0
+         1256: OK    : shape_1256                               OID: dc591288-0a89-1400-84c1-000688ce0fbf:1
+         1257: OK    : shape_1257                               OID: dc591288-0a89-1400-84c1-000688ce0fbf:2
+         1258: OK    : shape_1258                               OID: dc591288-0a89-1400-84c1-000688ce0fbf:3
+         1259: OK    : shape_1259                               OID: dc591288-0a89-1400-84c1-000688ce0fbf:4
+         1260: OK    : shape_1260                               OID: dc5aa8c8-0a89-1400-84c1-000688ce0fbf:0
+         1261: OK    : shape_1261                               OID: dc5aa8c8-0a89-1400-84c1-000688ce0fbf:1
+         1262: OK    : shape_1262                               OID: dc5aa8c8-0a89-1400-84c1-000688ce0fbf:2
+         1263: OK    : shape_1263                               OID: dc5c75b8-0a89-1400-84c1-000688ce0fbf:0
+         1264: OK    : shape_1264                               OID: dc5c75b8-0a89-1400-84c1-000688ce0fbf:1
+         1265: OK    : shape_1265                               OID: dc5c75b8-0a89-1400-84c1-000688ce0fbf:2
+         1266: OK    : shape_1266                               OID: de3f6e58-0a89-1400-84c1-000688ce0fbf:0
+         1267: OK    : shape_1267                               OID: de3f6e58-0a89-1400-84c1-000688ce0fbf:1
+         1268: OK    : shape_1268                               OID: de3f6e58-0a89-1400-84c1-000688ce0fbf:2
+         1269: OK    : shape_1269                               OID: f9c2db88-0a89-1400-84c1-000688ce0fbf:0
+         1270: OK    : shape_1270                               OID: f9c2db88-0a89-1400-84c1-000688ce0fbf:1
+         1271: OK    : shape_1271                               OID: f9c60420-0a89-1400-84c1-000688ce0fbf:0
+         1272: OK    : shape_1272                               OID: f9c60420-0a89-1400-84c1-000688ce0fbf:1
+         1273: OK    : shape_1273                               OID: f9c60420-0a89-1400-84c1-000688ce0fbf:2
+         1274: OK    : shape_1274                               OID: 35779628-0a8a-1400-84c1-000688ce0fbf:0
+         1275: OK    : shape_1275                               OID: 35779628-0a8a-1400-84c1-000688ce0fbf:1
+         1276: OK    : shape_1276                               OID: 357aa750-0a8a-1400-84c1-000688ce0fbf:0
+         1277: OK    : shape_1277                               OID: 357aa750-0a8a-1400-84c1-000688ce0fbf:1
+         1278: OK    : shape_1278                               OID: 357aa750-0a8a-1400-84c1-000688ce0fbf:2
+         1279: OK    : shape_1279                               OID: 91514228-0a8a-1400-84c1-000688ce0fbf:0
+         1280: OK    : shape_1280                               OID: 91514228-0a8a-1400-84c1-000688ce0fbf:1
+         1281: OK    : shape_1281                               OID: 91514228-0a8a-1400-84c1-000688ce0fbf:2
+         1282: OK    : shape_1282                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:0
+         1283: OK    : shape_1283                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:1
+         1284: OK    : shape_1284                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:2
+         1285: OK    : shape_1285                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:3
+         1286: OK    : shape_1286                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:4
+         1287: OK    : shape_1287                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:5
+         1288: OK    : shape_1288                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:6
+         1289: OK    : shape_1289                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:7
+         1290: OK    : shape_1290                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:8
+         1291: OK    : shape_1291                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:9
+         1292: OK    : shape_1292                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:a
+         1293: OK    : shape_1293                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:b
+         1294: OK    : shape_1294                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:c
+         1295: OK    : shape_1295                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:d
+         1296: OK    : shape_1296                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:e
+         1297: OK    : shape_1297                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:f
+         1298: OK    : shape_1298                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:10
+         1299: OK    : shape_1299                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:11
+         1300: OK    : shape_1300                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:12
+         1301: OK    : shape_1301                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:13
+         1302: OK    : shape_1302                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:14
+         1303: OK    : shape_1303                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:15
+         1304: OK    : shape_1304                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:16
+         1305: OK    : shape_1305                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:17
+         1306: OK    : shape_1306                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:18
+         1307: OK    : shape_1307                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:19
+         1308: OK    : shape_1308                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:1a
+         1309: OK    : shape_1309                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:1b
+         1310: OK    : shape_1310                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:1c
+         1311: OK    : shape_1311                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:1d
+         1312: OK    : shape_1312                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:1e
+         1313: OK    : shape_1313                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:1f
+         1314: OK    : shape_1314                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:20
+         1315: OK    : shape_1315                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:21
+         1316: OK    : shape_1316                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:22
+         1317: OK    : shape_1317                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:23
+         1318: OK    : shape_1318                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:24
+         1319: OK    : shape_1319                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:25
+         1320: OK    : shape_1320                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:26
+         1321: OK    : shape_1321                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:27
+         1322: OK    : shape_1322                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:28
+         1323: OK    : shape_1323                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:29
+         1324: OK    : shape_1324                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:2a
+         1325: OK    : shape_1325                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:2b
+         1326: OK    : shape_1326                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:2c
+         1327: OK    : shape_1327                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:2d
+         1328: OK    : shape_1328                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:2e
+         1329: OK    : shape_1329                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:2f
+         1330: OK    : shape_1330                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:30
+         1331: OK    : shape_1331                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:31
+         1332: OK    : shape_1332                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:32
+         1333: OK    : shape_1333                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:33
+         1334: OK    : shape_1334                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:34
+         1335: OK    : shape_1335                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:35
+         1336: OK    : shape_1336                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:36
+         1337: OK    : shape_1337                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:37
+         1338: OK    : shape_1338                               OID: 91baae70-0a8a-1400-84c1-000688ce0fbf:38
+         1339: OK    : shape_1339                               OID: 8d77b438-0a8b-1400-84c1-000688ce0fbf:0
+         1340: OK    : shape_1340                               OID: 8d77b438-0a8b-1400-84c1-000688ce0fbf:1
+         1341: OK    : shape_1341                               OID: 8d788ef8-0a8b-1400-84c1-000688ce0fbf:0
+         1342: OK    : shape_1342                               OID: 8d788ef8-0a8b-1400-84c1-000688ce0fbf:1
+         1343: OK    : shape_1343                               OID: 8d793ec0-0a8b-1400-84c1-000688ce0fbf:0
+         1344: OK    : shape_1344                               OID: 8d793ec0-0a8b-1400-84c1-000688ce0fbf:1
+         1345: OK    : shape_1345                               OID: 8d793ec0-0a8b-1400-84c1-000688ce0fbf:2
+         1346: OK    : shape_1346                               OID: b91e9d90-0a8b-1400-84c1-000688ce0fbf:0
+         1347: OK    : shape_1347                               OID: b91e9d90-0a8b-1400-84c1-000688ce0fbf:1
+         1348: OK    : shape_1348                               OID: b91fc288-0a8b-1400-84c1-000688ce0fbf:0
+         1349: OK    : shape_1349                               OID: b91fc288-0a8b-1400-84c1-000688ce0fbf:1
+         1350: OK    : shape_1350                               OID: b91fc288-0a8b-1400-84c1-000688ce0fbf:2
+         1351: OK    : shape_1351                               OID: d8904868-0a8b-1400-84c1-000688ce0fbf:0
+         1352: OK    : shape_1352                               OID: d8904868-0a8b-1400-84c1-000688ce0fbf:1
+         1353: OK    : shape_1353                               OID: d8917d00-0a8b-1400-84c1-000688ce0fbf:0
+         1354: OK    : shape_1354                               OID: d8917d00-0a8b-1400-84c1-000688ce0fbf:1
+         1355: OK    : shape_1355                               OID: d8917d00-0a8b-1400-84c1-000688ce0fbf:2
+         1356: OK    : shape_1356                               OID: 0cda3d18-0a8c-1400-84c1-000688ce0fbf:0
+         1357: OK    : shape_1357                               OID: 0cda3d18-0a8c-1400-84c1-000688ce0fbf:1
+         1358: OK    : shape_1358                               OID: 0cda3d18-0a8c-1400-84c1-000688ce0fbf:2
+         1359: OK    : shape_1359                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:0
+         1360: OK    : shape_1360                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:1
+         1361: OK    : shape_1361                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:2
+         1362: OK    : shape_1362                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:3
+         1363: OK    : shape_1363                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:4
+         1364: OK    : shape_1364                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:5
+         1365: OK    : shape_1365                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:6
+         1366: OK    : shape_1366                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:7
+         1367: OK    : shape_1367                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:8
+         1368: OK    : shape_1368                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:9
+         1369: OK    : shape_1369                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:a
+         1370: OK    : shape_1370                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:b
+         1371: OK    : shape_1371                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:c
+         1372: OK    : shape_1372                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:d
+         1373: OK    : shape_1373                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:e
+         1374: OK    : shape_1374                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:f
+         1375: OK    : shape_1375                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:10
+         1376: OK    : shape_1376                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:11
+         1377: OK    : shape_1377                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:12
+         1378: OK    : shape_1378                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:13
+         1379: OK    : shape_1379                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:14
+         1380: OK    : shape_1380                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:15
+         1381: OK    : shape_1381                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:16
+         1382: OK    : shape_1382                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:17
+         1383: OK    : shape_1383                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:18
+         1384: OK    : shape_1384                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:19
+         1385: OK    : shape_1385                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:1a
+         1386: OK    : shape_1386                               OID: 0d144490-0a8c-1400-84c1-000688ce0fbf:1b
+         1387: OK    : shape_1387                               OID: 63db24d0-0a8f-1400-84c1-000688ce0fbf
+         1388: OK    : shape_1388                               OID: bff93a20-0a91-1400-84c1-000688ce0fbf
+         1389: OK    : shape_1389                               OID: 4d7c9d10-0a92-1400-84c1-000688ce0fbf
+         1390: OK    : shape_1390                               OID: f321bc00-0a92-1400-84c1-000688ce0fbf
+         1391: OK    : shape_1391                               OID: cf38a7e8-0a94-1400-84c1-000688ce0fbf
+         1392: OK    : shape_1392                               OID: 81930eb0-0a95-1400-84c1-000688ce0fbf
+         1393: OK    : shape_1393                               OID: bc108490-0a96-1400-84c1-000688ce0fbf
+         1394: OK    : shape_1394                               OID: b584f218-0a97-1400-84c1-000688ce0fbf
+         1395: OK    : shape_1395                               OID: 3daa1858-0a98-1400-84c1-000688ce0fbf
+         1396: OK    : shape_1396                               OID: ed532678-0a98-1400-84c1-000688ce0fbf
+
+OUTPUT REPORT
+    written files & status:
+            0: OK:      /Users/cosmo/CityEngine/WindFarm/models/mainSceneModels_0.fbx
+

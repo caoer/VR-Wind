@@ -36,10 +36,10 @@ function FixedUpdate() {
 		moveDirection = transform.TransformDirection(moveDirection);
 		moveDirection *= speed;
 		
-		if (Input.GetButton ("MoveUp")) {
+		if (Input.GetKey (KeyCode.Q)) {
 			moveDirection.y = jumpSpeed;
 		}
-		else if (Input.GetButton("MoveDown")) {
+		else if (Input.GetKey(KeyCode.E)) {
 			moveDirection.y = -jumpSpeed;
 		}
 	
