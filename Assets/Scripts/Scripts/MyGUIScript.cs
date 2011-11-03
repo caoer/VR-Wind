@@ -6,6 +6,8 @@ public class MyGUIScript :MonoBehaviour {
     private int kOffsetY = 30;
     public static bool shouldMouseLookEnable;
 	public static bool shouldEscapePressed;
+	public static bool shouldShowControlMenu;
+	
     public float[] sliderValue;
     public float[] redSliderValue;
     public GameObject[] alphaSliderGameObject;
@@ -41,11 +43,21 @@ public class MyGUIScript :MonoBehaviour {
         bladeAnimation.animation.Play();
 
     }
+	
+	void OnMouseOver() {
+
+	}
     void Update() {
-        
-        if (Input.GetButtonDown("toogleMouse")) {
-            shouldMouseLookEnable = !shouldMouseLookEnable;
-        }
+		if (Input.GetMouseButtonDown(1)) {
+			shouldMouseLookEnable = true;
+		}
+		
+        if (Input.GetMouseButtonUp(1)) {
+       	    shouldMouseLookEnable = false;
+    	}
+//        if (Input.GetButtonDown("toogleMouse")) {
+//            shouldMouseLookEnable = !shouldMouseLookEnable;
+//        }
 		
 //		if (Input.GetKeyUp(KeyCode.Escape)) {
 //			if(shouldEscapePressed) {
@@ -124,6 +136,13 @@ public class MyGUIScript :MonoBehaviour {
         else {
             
         }
+		
+		if (!shouldShowControlMenu) {
+			if(GUI.Button(new Rect(50,50,100,50), "Control Menu")) {
+				shouldShowControlMenu = true;
+			}
+			return;
+		}
         // Make a group on the center of the screen
         GUI.BeginGroup(new Rect(25 ,25 , 200, 400));
         GUI.Box(new Rect(0, 0, 200, 400), "Change Opacity");
@@ -152,8 +171,8 @@ public class MyGUIScript :MonoBehaviour {
             redSliderValue[i] = GUI.HorizontalSlider(new Rect(95, 25 + kOffsetY * (i +  alphaSliderGameObject.Length + 1), 100, 30), redSliderValue[i], 0.0f, 1.0f);
         }
 
-        if (GUILayout.Button("Hide")){
-            shouldMouseLookEnable = true;
+        if (GUI.Button(new Rect(5,370,40,20), "Hide")){
+            shouldShowControlMenu = false;
         }
         
         if (GUI.Button (new Rect(25,200,150,30),"Toggle GearBox"))
@@ -174,6 +193,18 @@ public class MyGUIScript :MonoBehaviour {
                 bladeObject.animation.Play();
             }
         }
+		
+		if (GUI.Button(new Rect(25,280,150,30), "Water")) {
+			GameObject[] waters = GameObject.FindGameObjectsWithTag("water");
+			foreach(GameObject water in waters) { 
+				if(water.renderer.enabled){
+					water.renderer.enabled = false;
+				}
+				else {
+					water.renderer.enabled = true;
+				}
+			}
+		}
 
         GUI.Label(new Rect(25, 300, 150, 60), "Press M to enable mouse look");
         GUI.EndGroup();

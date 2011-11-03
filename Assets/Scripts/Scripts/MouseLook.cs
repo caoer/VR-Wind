@@ -34,7 +34,9 @@ public class MouseLook : MonoBehaviour {
 	{
 
         if (MyGUIScript.shouldMouseLookEnable)
+		//if(Input.GetMouseButtonDown(1))
         {
+			
             UpdateView();
         }
         else
